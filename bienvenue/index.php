@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>bienvenue</title>
+
     <style>
         body{
       background-image:url('../Images/Marchand Aladdin.jpg');
@@ -18,11 +19,15 @@
         }
 
          h1{
-            text-decoration: none;
+           
             color: orangered;
             font-family: algerian;
+            display: flex;
             text-align: center;
             margin-top: 50px;
+            position: absolute;
+            left: 50vh;
+            
          }
 
          .rideaux {
@@ -71,7 +76,7 @@
     border-bottom-left-radius: 67px;
 }
 
-/* Alternating color of curtain pieces */
+
 
 .rideaux-element:nth-child(odd) {
     background-color:#01002e;
@@ -84,7 +89,7 @@
 
     </style>
 
-<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!-----------------------------------------------------------------FIN DE BALISE STYLE----------------------------------------------------------->
 
 </head>
 
@@ -95,9 +100,11 @@
 
 
 
-
+<h1>BIENVENUE SUR LE BAZAR DE HECKLE ET JECKLE</h1>
 
 <body>
+
+
    
 <div class="rideaux rideaux-gauche">
         <div class="rideaux-element"></div>
