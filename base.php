@@ -20,8 +20,8 @@ try{
 ?>
 <style>
 h1{
-    color: cyan;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    font-family: algerian;
   
 }
 body{
@@ -30,7 +30,3 @@ body{
 
 </style>
 <h1>WALLAH LA BASE DE DONNEES</h1>
-
-
-
-
