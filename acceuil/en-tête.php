@@ -9,8 +9,7 @@
 <body>
 
 <header>
-    <div class="logo"><img src="../Images/Le Bazar de Heckle et Jeckle Logo.png"></div>
-    <div class="banner"><img src="../Images/Header.png" height="250px" width="1536px"></div>
+    <img src="../Images/Header.png" height="250px" width="1536px">
 </header>
 
 <style>
@@ -19,16 +18,9 @@
     }
     
     header{
-        position: relative;
-        top: -250px;
+        
     }
 
-    .logo{
-        display: flex;
-        height: 250px;
-        position: relative;
-        top: 250px;
-    }
 </style>
     
 </body>
