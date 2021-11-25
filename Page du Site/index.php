@@ -17,20 +17,21 @@ include '../acceuil/nav.php'
 ?>
 
 <main>
-    <img src="../Images/Laissez vous emportez par le souffle de l'Orient.png" alt="">
-    <img src="../Images/Le véritable souk en ligne de produits orientaux.jpg" alt="">
+  
 </main>
 </body>
 
 <style>
     body{
         background-image: url('../Images/Background.jpg');
+        background-attachment: fixed;
     }
 
-    img{
-        height: 250px;
-        
-    }
+    
    
 </style>
+
+<?php
+include '../acceuil/footer.php'
+?>
 </html>
