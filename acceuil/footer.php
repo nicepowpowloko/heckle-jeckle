@@ -1,8 +1,7 @@
 <body>
     <footer>
-        
         <div class="wrapper">
-        <img src="../Images/Footer.png" height="250px" width="1536px">
+        <img src="../Images/Footer.png" height="250px" width="1519px">
         <div class="gauche">
             <h1>Paiement</h1>
             <img src="../Images/VISA.png" alt="">
@@ -23,11 +22,16 @@
         </div>
         
     </footer>
+  
 </body>
 
 <style>
     *{
         margin: 0;
+    }
+
+    footer h1{
+     
     }
 
     footer{
@@ -45,17 +49,14 @@
 }
 
 .gauche {
-  background-color: black;
   order: 0;
 }
 
 .milieu {
-  background-color: black;
   order: 1;
 }
 
 .droite {
-  background-color: black;
   order: 2;
 }
 
@@ -63,6 +64,7 @@
 .milieu,
 .droite {
   flex: 1; 
+  background-color: ;
 }
 
 @media only screen and (max-width: 768px) {

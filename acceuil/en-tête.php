@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <img src="../Images/Header.png" height="250px" width="1536px">
+    <img src="../Images/Header.png" height="250px" width="1519px">
 </header>
 
 <style>
