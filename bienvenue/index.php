@@ -17,6 +17,7 @@
       padding: 0;
       overflow: hidden;
         }
+       
 
          h1{
            
@@ -29,12 +30,22 @@
             left: 50vh;
             
          }
+         img{
+          position:fixed;
+          height: 250px;
+          top: 50%;
+          left: 45%;
+          z-index: -1;
+         
+      
+         
+         }
 
          .rideaux {
     width: 50%;
     height: 90vh;
     float: left;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
@@ -98,12 +109,11 @@
 
 <iframe src="../audio/fais-moi-le-couscous-cherie.mp3" allowe="autoplay" style="display:none" id="iframeAudio"></iframe>
 
-
-
 <h1>BIENVENUE SUR LE BAZAR DE HECKLE ET JECKLE</h1>
 
 <body>
 
+<a href=""><img src="../Images/abu.png" alt=""></a>
 
    
 <div class="rideaux rideaux-gauche">
@@ -132,6 +142,7 @@
     </div>
 
 </body>
+
 
 
 <Script>
