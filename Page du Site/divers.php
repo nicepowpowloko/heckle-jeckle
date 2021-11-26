@@ -45,8 +45,8 @@ include '../acceuil/nav.php'
         text-align: center;
         display: flex;
         flex-wrap: wrap;
+        background-image: url('../Images/Background.jpg');
     }
-
 
 .card {
   

@@ -16,7 +16,7 @@
         </div>
         <div class="droite">
             <h1>Contact</h1>
-            <p>A propos</p>
+            <a href="../Page du Site/formulaire.php"><p>Formulaire</p></a>
             <p>Mentions Légales</p>
         </div>
         </div>
@@ -41,11 +41,16 @@
         text-align: center;
     }
 
+    a{
+      text-decoration: none;
+    }
+
     .wrapper {
   display: flex;
   flex-wrap: wrap;
   min-height: 100px;
   position: absolute;
+  
 }
 
 .gauche {
@@ -81,7 +86,7 @@
   .gauche,
   .milieu,
   .droite {
-    flex: none;
+  flex: none;
   }
 }
 </style>

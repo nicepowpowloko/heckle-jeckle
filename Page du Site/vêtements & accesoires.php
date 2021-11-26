@@ -45,6 +45,7 @@ include '../acceuil/nav.php'
         text-align: center;
         display: flex;
         flex-wrap: wrap;
+        background: url('../Images/Background.jpg');
     }
 
 

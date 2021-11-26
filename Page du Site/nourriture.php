@@ -41,13 +41,14 @@ include '../acceuil/nav.php'
     *{
         margin: 0;
     }
+
     main{
         text-align: center;
         display: flex;
         flex-wrap: wrap;
+        background-image: url('../Images/Background.jpg');
     }
-
-
+    
 .card {
   
   max-width: 300px;

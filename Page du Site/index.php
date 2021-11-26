@@ -20,8 +20,8 @@ include '../acceuil/nav.php'
   
   <img src="../Images/Marchand.jpg" alt="">
 <div class="bienvenue">
+<h1>Ah, Salam, je vous souhaite le bonsoir, mon noble ami.</h1>
 <p>
-Ah, Salam, je vous souhaite le bonsoir, mon noble ami.
 Approchez, approchez, venez plus près…
 Trop près, un peu trop près.
 Voilà. Bienvenue à Agrabah, cité de la magie noire, de l’enchantement, et des plus belles marchandises de ce côté du Jourdain en solde aujourd’hui, profitez-en.
@@ -33,11 +33,7 @@ Attendez une seconde ! Je vois que vous ne vous intéressez qu’aux objets exce
 </body>
 
 <style>
-    body{
-        background-image: url('../Images/Background.jpg');
-        background-attachment: fixed;
-    }
-
+  
 .phrase{
     display: flex;
     justify-content: center;
@@ -47,6 +43,7 @@ main{
     text-align: center;
     display: flex;
     flex-wrap:wrap;
+    background-image: url('../Images/Background.jpg');
 }
 
 .bienvenue{
