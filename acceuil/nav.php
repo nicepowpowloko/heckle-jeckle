@@ -20,6 +20,8 @@
     display: flex;
     font-family: 'Arabela';
     flex-wrap: wrap;
+    position: relative;
+    top: -2px;
 }
   
 .topnav a{

@@ -23,6 +23,7 @@
 <style>
    main{
        background-color: black;
+       flex-wrap: wrap;
    }
     .formulaire{
         height: 800px;
