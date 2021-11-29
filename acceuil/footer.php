@@ -1,7 +1,6 @@
 <body>
     <footer>
         <div class="wrapper">
-        <img src="../Images/Footer.png" height="250px" width="1519px">
         <div class="gauche">
             <h1>Paiement</h1>
             <img src="../Images/VISA.png" alt="">
@@ -33,22 +32,26 @@
 
 
     footer{
+      background:url('../Images/Footer.png');
+      background-size:contain;
         flex-wrap: wrap;
         color: #00B2FE;
         font-family: 'Arabela';
         text-align: center;
+        height: 250px; 
+        width: 1519px;
+        background-repeat: none;
     }
 
     a{
       text-decoration: none;
     }
 
-    .wrapper {
+  .wrapper {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   min-height: 100px;
-  position: absolute;
-  
 }
 
 .gauche {

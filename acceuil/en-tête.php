@@ -9,16 +9,33 @@
 <body>
 
 <header>
-    <img src="../Images/Header.png" height="250px" width="1519px">
+    <div class="logo"><img src="../Images/Logo.png" alt=""></div>
+    <div class="titre">
+        <h1>LE BAZAR DE HECKLE ET JECKLE</h1>
+    </div>
 </header>
 
 <style>
     *{
         margin: 0;
     }
+
+    .titre{
+        justify-content: center;
+        display: flex;
+        font-family: "Algerian";
+    }
     
     header{
-        
+        background-color: black;
+        padding: 20px;
+        color: white;
+    }
+
+    .logo{
+        display: flex;
+        height: 200px;
+        justify-content: center;
     }
 
 </style>

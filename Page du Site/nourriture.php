@@ -15,24 +15,49 @@ include '../acceuil/nav.php'
 ?>
 
 <main>
-<div class="card">
-  <img src="../Images/Couscous.jpg" style="width:50%">
-  <h1>Couscous</h1>
-  <p class="price">3.20€</p>
-  <p><button>Ajoutez au panier</button></p>
-</div> 
-<div class="card">
-  <img src="../Images/Masala.jpg" style="width:45.5%">
-  <h1>Masala</h1>
-  <p class="price">2.80€</p>
-  <p><button>Ajoutez au panier</button></p>
-</div> 
-<div class="card">
-  <img src="../Images/Sardine Tajine.jpg" style="width:86%">
-  <h1>Tajine</h1>
-  <p class="price">4.50€</p>
-  <p><button>Ajoutez au panier</button></p>
-</div> 
+  <br>
+<div class="AR">
+  <div class="card">
+    <img src="../Images/Couscous.jpg" style="width:50%">
+    <h1>Couscous</h1>
+    <p class="price">3.20€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/Masala.jpg" style="width:45.5%">
+    <h1>Masala</h1>
+    <p class="price">2.80€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/Sardine Tajine.jpg" style="width:86%">
+    <h1>Tajine</h1>
+    <p class="price">4.50€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+</div>
+<br>
+<div class="AR">
+  <div class="card">
+      <img src="../Images/Café.jpg" style="width:89.5%">
+      <h1>Café</h1>
+      <p class="price">4.80€</p>
+      <p><button>Ajoutez au panier</button></p>
+    </div>
+    <div class="card">
+      <img src="../Images/Thé.png" style="width:86%">
+      <h1>Thé</h1>
+      <p class="price">4.76€</p>
+      <p><button>Ajoutez au panier</button></p>
+    </div>
+    <div class="card">
+      <img src="../Images/Harissa.webp" style="width:89.5%">
+      <h1>Harissa</h1>
+      <p class="price">3.30€</p>
+      <p><button>Ajoutez au panier</button></p>
+    </div>
+</div>
+<br>
 </main>
 
 </body>
@@ -42,15 +67,17 @@ include '../acceuil/nav.php'
         margin: 0;
     }
 
+    .AR{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
     main{
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
         background-image: url('../Images/Background.jpg');
     }
     
 .card {
-  
   max-width: 300px;
   margin: auto;
   text-align: center;
