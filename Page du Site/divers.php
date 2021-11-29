@@ -18,13 +18,13 @@ include '../acceuil/nav.php'
   <br>
 <div class="AR">
   <div class="card">
-    <img src="../Images/Chicha.jpg" style="width:50%">
+    <img src="../Images/Chicha.jpg" style="width:82%">
     <h1>Chicha</h1>
     <p class="price">65.30€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/Tapis.jpg" style="width:56.4%">
+    <img src="../Images/Tapis.jpg" style="width:82%">
     <h1>Tapis</h1>
     <p class="price">56.20€</p>
     <p><button>Ajoutez au panier</button></p>

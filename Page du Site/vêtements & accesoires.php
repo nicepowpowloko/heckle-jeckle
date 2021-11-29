@@ -18,19 +18,19 @@ include '../acceuil/nav.php'
   <br>
 <div class="AR">
   <div class="card">
-    <img src="../Images/Turban.jpg" style="width:84.3%">
+    <img src="../Images/turban.webp" style="width:82%">
     <h1>Tuban</h1>
     <p class="price">24.90€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/djellaba.jpg" style="width:55.5%">
+    <img src="../Images/djellaba.jpg" style="width:82%">
     <h1>Djellaba</h1>
     <p class="price">65.80€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/Babouche.jpg" style="width:70%">
+    <img src="../Images/Babouche.jpg" style="width:82%">
     <h1>Babouche</h1>
     <p class="price">45.26€</p>
     <p><button>Ajoutez au panier</button></p>
@@ -39,19 +39,19 @@ include '../acceuil/nav.php'
 <br>
 <div class="AR">
   <div class="card">
-    <img src="../Images/fatma.webp" style="width:70%">
+    <img src="../Images/fatma.webp" style="width:82%">
     <h1>Main de Fatma</h1>
     <p class="price">75.50€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/Robe.jpg" style="width:70%">
+    <img src="../Images/Robe.webp" style="width:82%">
     <h1>Robe</h1>
     <p class="price">128.34€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/boucle.jpg" style="width:86.5%">
+    <img src="../Images/boucle.jpg" style="width:82%">
     <h1>Boucle d'oreille</h1>
     <p class="price">44.80€</p>
     <p><button>Ajoutez au panier</button></p>

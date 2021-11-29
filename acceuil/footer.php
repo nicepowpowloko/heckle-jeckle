@@ -36,7 +36,6 @@
         color: #00B2FE;
         font-family: 'Arabela';
         text-align: center;
-        height: 200px;
     }
 
     a{
