@@ -15,24 +15,49 @@ include '../acceuil/nav.php'
 ?>
 
 <main>
-<div class="card">
-  <img src="../Images/Turban.jpg" style="width:84.3%">
-  <h1>Tuban</h1>
-  <p class="price">24.90€</p>
-  <p><button>Ajoutez au panier</button></p>
-</div> 
-<div class="card">
-  <img src="../Images/djellaba.jpg" style="width:55.5%">
-  <h1>Djellaba</h1>
-  <p class="price">65.80€</p>
-  <p><button>Ajoutez au panier</button></p>
-</div> 
-<div class="card">
-  <img src="../Images/Babouche.jpg" style="width:70%">
-  <h1>Babouche</h1>
-  <p class="price">45.26€</p>
-  <p><button>Ajoutez au panier</button></p>
-</div> 
+  <br>
+<div class="AR">
+  <div class="card">
+    <img src="../Images/Turban.jpg" style="width:84.3%">
+    <h1>Tuban</h1>
+    <p class="price">24.90€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/djellaba.jpg" style="width:55.5%">
+    <h1>Djellaba</h1>
+    <p class="price">65.80€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/Babouche.jpg" style="width:70%">
+    <h1>Babouche</h1>
+    <p class="price">45.26€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+</div>
+<br>
+<div class="AR">
+  <div class="card">
+    <img src="../Images/fatma.webp" style="width:70%">
+    <h1>Main de Fatma</h1>
+    <p class="price">75.50€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/Robe.jpg" style="width:70%">
+    <h1>Robe</h1>
+    <p class="price">128.34€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/boucle.jpg" style="width:86.5%">
+    <h1>Boucle d'oreille</h1>
+    <p class="price">44.80€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+</div>
+<br>
 </main>
 
 </body>
@@ -42,12 +67,13 @@ include '../acceuil/nav.php'
         margin: 0;
     }
     main{
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
         background: url('../Images/Background.jpg');
     }
-
+    .AR{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 .card {
   

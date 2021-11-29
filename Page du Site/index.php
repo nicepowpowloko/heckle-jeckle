@@ -18,7 +18,7 @@ include '../acceuil/nav.php'
 
 <main>
   
-  <img src="../Images/Marchand.jpg" alt="">
+<img src="../Images/Marchand.jpg" alt="">
 <div class="bienvenue">
 <h1>Ah, Salam, je vous souhaite le bonsoir, mon noble ami.</h1>
 <p>
@@ -59,7 +59,7 @@ main{
     background-color: white;
     border-radius: 30px;
     text-align: center;
-    
+    font-size: 18px;
 }
 
 </style>

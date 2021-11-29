@@ -15,24 +15,49 @@ include '../acceuil/nav.php'
 ?>
 
 <main>
-<div class="card">
-  <img src="../Images/Chicha.jpg" style="width:50%">
-  <h1>Chicha</h1>
-  <p class="price">65.30€</p>
-  <p><button>Ajoutez au panier</button></p>
-</div> 
-<div class="card">
-  <img src="../Images/Tapis.jpg" style="width:56.4%">
-  <h1>Tapis</h1>
-  <p class="price">56.20€</p>
-  <p><button>Ajoutez au panier</button></p>
-</div> 
-<div class="card">
-  <img src="../Images/Lampe Génie.jpg" style="width:82%">
-  <h1>Lampe</h1>
-  <p class="price">28.50€</p>
-  <p><button>Ajoutez au panier</button></p>
-</div> 
+  <br>
+<div class="AR">
+  <div class="card">
+    <img src="../Images/Chicha.jpg" style="width:50%">
+    <h1>Chicha</h1>
+    <p class="price">65.30€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/Tapis.jpg" style="width:56.4%">
+    <h1>Tapis</h1>
+    <p class="price">56.20€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/Lampe Génie.jpg" style="width:82%">
+    <h1>Lampe</h1>
+    <p class="price">920.50€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+</div>
+<br>
+<div class="AR">
+  <div class="card">
+      <img src="../Images/théiére.jpg" style="width:82%">
+      <h1>Théiére</h1>
+      <p class="price">23.12€</p>
+      <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/couscousiere.webp" style="width:82%">
+    <h1>Couscoussier</h1>
+    <p class="price">80.50€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+  <div class="card">
+    <img src="../Images/vaiselle.jpg" style="width:82%">
+    <h1>Vaisselle</h1>
+    <p class="price">150.80€</p>
+    <p><button>Ajoutez au panier</button></p>
+  </div>
+</div>
+<br>
 </main>
 
 </body>
@@ -41,10 +66,14 @@ include '../acceuil/nav.php'
      *{
         margin: 0;
     }
+
+    .AR{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
     main{
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
         background-image: url('../Images/Background.jpg');
     }
 
