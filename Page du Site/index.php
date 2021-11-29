@@ -16,27 +16,110 @@ include '../acceuil/en-tête.php'
 include '../acceuil/nav.php'
 ?>
 
+
 <main>
-  
-<img src="../Images/Marchand.jpg" alt="">
-<div class="bienvenue">
-<h1>Ah, Salam, je vous souhaite le bonsoir, mon noble ami.</h1>
-<p>
-Approchez, approchez, venez plus près…
-Trop près, un peu trop près.
-Voilà. Bienvenue à Agrabah, cité de la magie noire, de l’enchantement, et des plus belles marchandises de ce côté du Jourdain en solde aujourd’hui, profitez-en.
-Regardez, oui, un combiné narguilé et cafetière qui fait aussi les pommes de terre frites. Incassable, incass… Cassé !
-Ooooh, regardez, c’est la première fois que j’en vois un aussi bien conservé. C’est le célèbre Tupperware de la Mer Morte. Ecoutez (prrt) ah ! Il fonctionne ! Wooooh !
-Attendez une seconde ! Je vois que vous ne vous intéressez qu’aux objets exceptionnellement rares ! Il me semble avoir ici de quoi faire votre bonheur. Voyez ! Ne vous laissez pas rebuter par son apparente banalité : comme tant d’autres choses ce n’est pas ce qu’il y a à l’extérieur, mais ce qu’il y a à l’intérieur qui compte ! Ce n’est pas n’importe quelle lampe ! Elle a même changé le cours de la vie d’un jeune homme. Et ce jeune homme, tout comme cette lampe, valait beaucoup plus qu’on ne l’estimait… Un diamant d’innocence !</p>
+<div class="phrases">
+    <img src="../Images/Laissez vous emportez par le souffle de l'Orient.png" width="90%">
+    <img src="../Images/Le véritable souk.jpg" width="90%">
 </div>
+    
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="../Images/Nourriture Banner.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../Images/Banner 2.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="../Images/Banner 3.webp" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="../Images/Banner 4.jpg" style="width:100%">
+</div>
+
+
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
 </main>
 </body>
 
 <style>
+
+.phrases{
+    text-align: center;
+    column-count: 2;
+}
   
-.phrase{
-    display: flex;
-    justify-content: center;
+*{box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 main{
@@ -46,9 +129,7 @@ main{
     background-image: url('../Images/Background.jpg');
 }
 
-.bienvenue{
-    font-family: 'Arabela';
-}
+
 
  main p{
     border: 2px solid white;
@@ -63,6 +144,31 @@ main{
 }
 
 </style>
+
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+} 
+</script>
 
 <?php
 include '../acceuil/footer.php'

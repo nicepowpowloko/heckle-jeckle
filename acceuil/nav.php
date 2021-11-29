@@ -1,8 +1,8 @@
 <nav>
         <div class="topnav">
             <a href="../Page du Site/index.php">ACCUEIL</a>
-            <a href="../Page du Site/nourriture.php">NOURRITURES</a>
-            <a href="../Page du Site/vêtements & accesoires.php">VÊTEMENTS & ACCESSOIRES</a>
+            <a href="../Page du Site/nourriture.php">ALIMENTATIONS</a>
+            <a href="../Page du Site/vêtements & accesoires.php">VETEMENTS & ACCESSOIRES</a>
             <a href="../Page du Site/divers.php">DIVERS</a>
             <a href="">PANIER</a>
           </div> 
