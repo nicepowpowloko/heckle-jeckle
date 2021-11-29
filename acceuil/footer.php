@@ -32,15 +32,11 @@
 
 
     footer{
-      background:url('../Images/Footer.png');
-      background-size:contain;
         flex-wrap: wrap;
         color: #00B2FE;
         font-family: 'Arabela';
         text-align: center;
-        height: 250px; 
-        width: 1519px;
-        background-repeat: none;
+        height: 200px;
     }
 
     a{
@@ -52,6 +48,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   min-height: 100px;
+  background-color: black;
 }
 
 .gauche {
@@ -70,7 +67,6 @@
 .milieu,
 .droite {
   flex: 1; 
-  background-color: ;
 }
 
 @media only screen and (max-width: 768px) {
