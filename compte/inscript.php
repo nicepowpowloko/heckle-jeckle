@@ -12,13 +12,13 @@ label{
     position: relative;
     margin-top: 50vh;
 }
-.admin{
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 50vh;
-    margin-left: 50vh;
-    font-size: 3vh;
-}
-label~text{
-    border: solid 5px black;
 }
 </style>
 
@@ -27,13 +27,15 @@ label~text{
 </head>
 <body>
 
-
+<form action="" method="post">
     <div class="admin">
-    <label for="pseudo">اسم االمستخدم</label>
+    <label for="pseudo">pseudo</label>
     <input type="text" name="pseudo" id="pseud" required pattern="^[A-Za-z'-]+$">
-    <label for="motdedep">قديم الطراز</label>
+    <label for="motdedep">mot de passe</label>
     <input type="password" name="pass" id="motpasse" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}$">
-<input type="submit" value="يرسل">
+    <label for="adresse">email</label>
+    <input type="email" name="mail" id="eemail" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}$">
+    <input type="submit" value="يرسل">
 </div>
 
 
