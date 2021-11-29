@@ -30,9 +30,7 @@
         margin: 0;
     }
 
-    footer h1{
-     
-    }
+
 
     footer{
         flex-wrap: wrap;
