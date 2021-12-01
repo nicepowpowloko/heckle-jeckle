@@ -94,15 +94,37 @@ body {
         position: absolute;
         margin-top: -7vh;
         left: 30vh;
+        flex-wrap: wrap;
     }
 
     
     .img3{
         height: 3vh;
         width: 3vh;
-        position: absolute;
+        position: fixed;
         margin-top: -1vh;
         left: 30vh;
+        flex-wrap: wrap;
+    }
+
+    .img4{
+        height: 3vh;
+        width: 3vh;
+        position: fixed;
+        margin-top: 4vh;
+        left: 30vh;
+        flex-wrap: wrap;
+    }
+
+    .img5{
+        height: 40vh;
+        width: 25vh;
+        position: fixed;
+        flex-wrap: wrap;
+        left:-55vh;
+
+      
+        
     }
 
 </style>
@@ -113,26 +135,30 @@ body {
 <body>
 
 
-    
+   
 <div class="main_box">
         <div class="box">
             <div class="heading">
                 <h1>INSCRIPTION</h1>
             </div>
             <div class="form">
-                <input class="int" type="text" placeholder="utilisateur" required pattern="" />
-                <input class="int" type="password" placeholder="mot de passe" required pattern="" />
-                <input class="int" type="email" placeholder="email" required pattern="">
+                <input class="int" type="text" placeholder="utilisateur" required pattern="^[A-Za-z'-]+$">
+                <input class="int" type="password" placeholder="mot de passe" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}$">
+                <input class="int" type="email" placeholder="email" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}$">
             </div>
             <button class="btn">ENVOIE</button>
         </div>
     </div>
-
+   
 <img src="../Images/kisspng-paper-quill-pen-clip-art-plumas-de-ave-5adae0b2b52501.768700781524293810742.png" alt="">
 
 <img src="../Images/femme.png" alt="" class="img2">
 
 <img src="../Images/cle.png" alt="" class="img3">
+
+<img src="../Images/email.png" class="img4" alt="">
+
+<img src="../Images/marocaiin.png" class="img5" alt="">
 
 
 
