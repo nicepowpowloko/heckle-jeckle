@@ -5,13 +5,18 @@
             <a href="../Page du Site/vêtements & accesoires.php">VETEMENTS & ACCESSOIRES</a>
             <a href="../Page du Site/divers.php">DIVERS</a>
             <a href="">PANIER</a>
-            <a href=""><img src="../Images/kissclipart-emirati-man-cartoon-clipart-emiratis-dubai-man-051efe8dc99e1f0a.png" height="50px"></a>
+            <a href="" class="conn"><img src="../Images/kissclipart-emirati-man-cartoon-clipart-emiratis-dubai-man-051efe8dc99e1f0a.png" height="50px">CONNEXION</a>
           </div> 
 </nav>
 
 <style>
+
     *{
         margin: 0;
+    }
+    .conn{
+        display:flex;
+        align-items:center;
     }
     
     .topnav{
