@@ -24,7 +24,7 @@ include '../acceuil/nav.php'
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/Tapis.jpg" style="width:82%">
+    <a href="../Article/Tapis.php"><img src="../Images/Tapis.jpg" style="width:82%"></a>
     <h1>Tapis</h1>
     <p class="price">56.20€</p>
     <p><button>Ajoutez au panier</button></p>
