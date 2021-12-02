@@ -23,7 +23,6 @@ include '../acceuil/nav.php';
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
-  
 
   <div id="simpleModal" class="modal">
     <div class="modal-content">
@@ -210,7 +209,7 @@ body {
 }
 
 .swiper-pagination {
-  background: linear-gradient(to bottom right, #c2c2f0, #8585e0);
+  background: transparent;
   border-radius: 10px;
 }
 
