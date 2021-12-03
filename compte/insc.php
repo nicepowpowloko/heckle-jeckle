@@ -65,7 +65,7 @@ fieldset{
 
 
 <fieldset>
-   <form action="" method="POST">
+   <form action="./inscript.php" method="POST">
 
     <label for="pseudo">Nom Utilisateur</label>
     <input type="text" name="pseudo" id="pseud" required pattern="^[A-Za-z'-]+$" max="20">

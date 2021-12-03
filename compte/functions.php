@@ -10,7 +10,7 @@ function logged_only(){
 
     if(session_status() == PHP_SESSION_NONE) {
         session_start();
-        header('locations:login.php');
+        header('locations:/login.php');
     }
 
    if(!isset($_SESSION['auth'])){
