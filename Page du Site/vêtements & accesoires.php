@@ -30,7 +30,7 @@ include '../acceuil/nav.php'
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/Babouche.jpg" style="width:82%">
+    <a href="../Article/Babouche.php"><img src="../Images/Babouche.jpg" style="width:82%"></a>
     <h1>Babouche</h1>
     <p class="price">45.26€</p>
     <p><button>Ajoutez au panier</button></p>
@@ -51,7 +51,7 @@ include '../acceuil/nav.php'
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/boucle.jpg" style="width:82%">
+    <a href="../Article/Boucle d'oreille.php"><img src="../Images/boucle.jpg" style="width:82%"></a>
     <h1>Boucle d'oreille</h1>
     <p class="price">44.80€</p>
     <p><button>Ajoutez au panier</button></p>
