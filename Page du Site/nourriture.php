@@ -39,7 +39,7 @@ include '../acceuil/nav.php'
 <br>
 <div class="AR">
   <div class="card">
-      <img src="../Images/Café.jpg" style="width:82%">
+      <a href="../Article/Café.php"><img src="../Images/Café.jpg" style="width:82%"></a>
       <h1>Café</h1>
       <p class="price">4.80€</p>
       <p><button>Ajoutez au panier</button></p>

@@ -21,9 +21,12 @@
 </body>
 
 <style>
+
    main{
        background-color: black;
        flex-wrap: wrap;
+       background: url('../Images/Smoke Background.jpg');
+       background-size: cover;
    }
     .formulaire{
         height: 800px;
