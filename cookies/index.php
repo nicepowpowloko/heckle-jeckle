@@ -59,10 +59,25 @@ require_once('./index.php');
 
 <?php if($showcookie) { ?>
     <div class="overlay">
-        <div class="cookie-alert">veuillez acceptez les cookies
-<br /><a href="cookiesac.php">WALLAH</a>            
+        <div class="cookie-alert">Le BAZAR DE HECKLE ET JECKLE vous demande d'accepter les cookies afin d'optimiser les performances, les fonctionnalités des réseaux sociaux et la pertinence de la publicité. Pour obtenir plus d'informations ou modifier vos préférence cliquez sur le bouton << PLUS D'INFORMATIONS >>
+<br /><a href="../Page du Site/index.php">ENTREZ</a>
+        <a href="#" onclick="togglecokie()">PLUS D'INFORMATIONS</a>
+
+
         </div>
     </div>
+
+   <div id="cokie">
+       <p>1.cookie focntionnel<br>
+       Ces cookies sont nécessaires pour assurer le fonctionnement optimal du site et sont donc activés en permanence. Ils comprennent des cookies permettant de se souvenir de votre passage sur le site au cours d'une session, ou, si vous le souhaitez, de session à session. Ils participent au fonctionnement du panier d'achat et au processus d'achat, et vous aident en cas de problème de sécurité et pour vous conformer aux réglementations.<br>
+       <br>
+        2.Performances<br>
+        Ces cookies nous permettent d'améliorer l'ergonomie du site grâce à l'analyse de l'utilisation du site web par les visiteurs. Dans certains cas, ces cookies améliorent la vitesse de traitement de vos requêtes en nous permettant d'enregistrer vos préférences pour le site. Désactiver ces cookies peut ralentir le site et limiter la pertinence des recommandations.<br>
+        <br>
+        3.Cookies liés aux réseaux sociaux et à la Publicités<br>
+        Les cookies relatifs aux réseaux sociaux vous offrent la possibilité de vous connecter aux réseaux sociaux et de partager le contenu de notre site Web sur ces derniers. Les cookies publicitaires (ou de tierces parties) recueillent des informations qui contribuent à mieux cibler la publicité selon vos centres d'intérêt, que ce soit sur LE BAZAR DE HECKLE ET JECKLE ou d'autres sites. Dans certains cas, ces cookies ont recours à l'utilisation de vos données personnelles. Pour en savoir plus sur la façon dont vos données personnelles sont utilisées, consultez notre Politique de confidentialité et de gestion des cookies. La désactivation de ces cookies peut entraîner l'affichage de publicités moins pertinentes pour vous et empêcher une liaison efficace avec Facebook, Twitter ou d'autres réseaux sociaux et/ou vous empêcher de partager du contenu sur les réseaux sociaux.</p>
+      <a href="../Page du Site/index.php"><button class="buton">retour</button></a>
+   </div>
 
 <?php } ?>
 <script src="../jq//jquery-3.6.0.min.js/"></script>
@@ -70,6 +85,39 @@ require_once('./index.php');
 </body>
 
 <style>
+
+#cokie {
+  border: black solid 2px;
+  display: block;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 150vh;
+  padding: 2.5em;
+  height: 100vh;
+  width: 50vw;
+  background-color:whitesmoke;
+  border-radius: 25px;
+  font-family:algerian;
+  color: black;
+  left: 25vw;
+  top: 10vh;
+  display: none;
+  
+}
+
+.buton{
+    background-color: blue;
+    height: 8vh;
+    width: 5vw;
+    border-radius: 25px;
+}
+
+
+
+
+
 
 
 .overlay{
@@ -92,12 +140,35 @@ require_once('./index.php');
         flex-direction: column;
         height: 50vh;
         width: 50vw;
-        color: turquoise;
+        color:  #F0A224;
+        font-family: algerian;
         padding: 25px;
         border-radius: 25px;
         background-color: black;
+        border: 2px solid  #F0A224;
       
     }
+    .cookie-alert a{
+        text-decoration: none;
+        border: #F0A224 2px solid;
+        border-radius: 20px;
+        padding: 25px;
+        color: #F0A224;
+        transition: 1.2s ease;
+        
+    }
+
+    .cookie-alert a:hover{
+        color: black;
+        font-size: 3px;
+        background:#45A9FF;
+        border: 2px #FF4618 solid;
+       
+       
+    }
+   
+ 
+    
 
 
 
@@ -230,6 +301,25 @@ $('.overlay').on('click', function(e) {
     }
 
     });
+
+
+    function togglecokie(){
+    
+    var form = document.getElementById('cokie');
+  
+    // Condition pour afficher/cacher le formulaire en fonction de son état
+    if(form.style.display == 'block'){
+        form.style.display = 'none';
+    }else{
+        form.style.display = 'block';
+        let appear = form.style.opacity = '1';
+       setTimeout(appear, 1000) 
+    }
+}
+
+
+
+
 </script>
 
 <?php

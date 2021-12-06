@@ -47,9 +47,6 @@ fieldset{
 
 @media only screen and (min-width: 375px) and (max-width:600px)  {
 
-*{
-  overflow: hidden;
-}
 .dromadaire{
     display: none;
 }

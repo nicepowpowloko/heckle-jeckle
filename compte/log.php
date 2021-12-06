@@ -15,7 +15,7 @@ $pseudo = cleandata($_POST['pseudo']);
     echo 'probléme';
 }
 
-if(!empty($_POST['codemd']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}#', $_POST['codemd']) &&!empty($pseudo)){
+if(!empty($_POST['codemd'])&& preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}#', $_POST['codemd']) &&!empty($pseudo)){
     try{
         require_once './bdd.php';
         $req = $pdo->prepare('SELECT * FROM compte WHERE tokenconfirmed IS NOT NULL AND prenom = :pseunom ');
