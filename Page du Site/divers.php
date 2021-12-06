@@ -18,7 +18,7 @@ include '../acceuil/nav.php'
   <br>
 <div class="AR">
   <div class="card">
-    <img src="../Images/Chicha.jpg" style="width:82%">
+    <a href="../Article/Chicha.php"><img src="../Images/Chicha.jpg" style="width:82%"></a>
     <h1>Chicha</h1>
     <p class="price">65.30€</p>
     <p><button>Ajoutez au panier</button></p>
