@@ -87,7 +87,7 @@ require_once('./index.php');
 <style>
 
 #cokie {
-  border: black solid 2px;
+  border:  solid  #F0A224 5px;
   display: block;
   flex-direction: column;
   justify-content: space-around;
@@ -97,21 +97,27 @@ require_once('./index.php');
   padding: 2.5em;
   height: 100vh;
   width: 50vw;
-  background-color:whitesmoke;
+  background-color:wheat;
+  box-shadow: 5px 5px 5px 5px black ;
   border-radius: 25px;
   font-family:algerian;
   color: black;
   left: 25vw;
   top: 10vh;
   display: none;
+  flex-wrap: wrap;
   
 }
 
-.buton{
-    background-color: blue;
-    height: 8vh;
+ #cokie .buton{
+  
+    background-color:#45A9FF;
+    height: 5vh;
     width: 5vw;
-    border-radius: 25px;
+    border-radius: 15px;
+    font-family: algerian;
+    border: 2px solid #F0A224;
+  
 }
 
 
@@ -146,6 +152,7 @@ require_once('./index.php');
         border-radius: 25px;
         background-color: black;
         border: 2px solid  #F0A224;
+        box-shadow: 2px 2px 2px 2px #45A9FF  ;
       
     }
     .cookie-alert a{
