@@ -43,13 +43,13 @@ fieldset{
 <fieldset>
 
 
-<form action="./include/log.php" method="post">
+<form action="./log.php" method="post">
     
     <label for="pseudo"> Nom Utilisateur</label>
     <input type="text" name="pseudo" id="pseud" required pattern="^[A-Za-z'-]+$">
     <label for="code">mot de passe</label>
     <input type="password" name="code" id="codemd" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}$">
-<input class="envoie" type="submit" value="Envoie">
+    <input class="envoie" type="submit" value="Envoie">
 
 
     </form>

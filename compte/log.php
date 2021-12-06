@@ -1,5 +1,7 @@
 <?php
 
+include './header.php';
+
 if(!empty($_POST['pseudo'])){
 
 function cleandata($data){
@@ -28,7 +30,7 @@ if(!empty($_POST['codemd']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])
             session_start();
         $_SESSION['auth'] = $userdata;
         print_r($_SESSION['auth']);
-        header('location:./index.php');   
+       header('location:./index.php');   
 
     }else{
         echo 'ceci est faux';
@@ -36,7 +38,7 @@ if(!empty($_POST['codemd']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])
 
 }
 }else{
-    echo 'ceci ne marche toujours pas';
+    echo 'mince';
 }
 
 
