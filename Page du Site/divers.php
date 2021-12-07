@@ -18,19 +18,19 @@ include '../acceuil/nav.php'
   <br>
 <div class="AR">
   <div class="card">
-    <a href="../Article/Chicha.php"><img src="../Images/Chicha.jpg" style="width:82%"></a>
+    <a href="../Article/Chicha.php"><img src="../IMAGES/ARTICLES/Chicha 1.jpg" style="width:50%"></a>
     <h1>Chicha</h1>
     <p class="price">65.30€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <a href="../Article/Tapis.php"><img src="../Images/Tapis.jpg" style="width:82%"></a>
+    <a href="../Article/Tapis.php"><img src="../IMAGES/ARTICLES/Tapis 1.jpg" style="width:50%"></a>
     <h1>Tapis</h1>
     <p class="price">56.20€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/Lampe Génie.jpg" style="width:82%">
+    <img src="../IMAGES/ARTICLES/Lampe 1.jpg" style="width:50%">
     <h1>Lampe</h1>
     <p class="price">920.50€</p>
     <p><button>Ajoutez au panier</button></p>
@@ -39,20 +39,20 @@ include '../acceuil/nav.php'
 <br>
 <div class="AR">
   <div class="card">
-      <img src="../Images/théiére.jpg" style="width:82%">
-      <h1>Théiére</h1>
+      <img src="../IMAGES/ARTICLES/Ensemble Thé 1.jpg" style="width:50%">
+      <h1>Ensemble de thé</h1>
       <p class="price">23.12€</p>
       <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/couscousiere.webp" style="width:82%">
+    <img src="../IMAGES/ARTICLES/Couscoussier 1.jpg" style="width:50%">
     <h1>Couscoussier</h1>
     <p class="price">80.50€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/vaiselle.jpg" style="width:82%">
-    <h1>Vaisselle</h1>
+    <img src="../IMAGES/ARTICLES/Service de Table 1.jpg" style="width:50%">
+    <h1>Service de Table</h1>
     <p class="price">150.80€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>

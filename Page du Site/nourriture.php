@@ -18,20 +18,20 @@ include '../acceuil/nav.php'
   <br>
 <div class="AR">
   <div class="card">
-    <a href="../Article/Couscous.php"><img src="../Images/Couscous.jpg" style="width:82%"></a>
+    <a href="../Article/Couscous.php"><img src="../IMAGES/ARTICLES/Couscous 1.jpg" style="width:50%"></a>
     <h1>Couscous</h1>
     <p class="price">3.20€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <a href="../Article/Massala.php"><img src="../Images/Masala.webp" style="width:82%"></a>
+    <a href="../Article/Massala.php"><img src="../IMAGES/ARTICLES/Masala 1.jpg" style="width:50%"></a>
     <h1>Masala</h1>
     <p class="price">2.80€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <a href="../Article/Sardine Tagine.php"><img src="../Images/Sardine Tajine.jpg" style="width:82%"></a>
-    <h1>Tajine</h1>
+    <a href="../Article/Dattes.php"><img src="../IMAGES/ARTICLES/Dattes 1.jpg" style="width:50%"></a>
+    <h1>Dattes</h1>
     <p class="price">4.50€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
@@ -39,19 +39,19 @@ include '../acceuil/nav.php'
 <br>
 <div class="AR">
   <div class="card">
-      <a href="../Article/Café.php"><img src="../Images/Café.jpg" style="width:82%"></a>
+      <a href="../Article/Café.php"><img src="../IMAGES/ARTICLES/Café 1.jpg" style="width:50%"></a>
       <h1>Café</h1>
       <p class="price">4.80€</p>
       <p><button>Ajoutez au panier</button></p>
     </div>
     <div class="card">
-      <a href="../Article/Thé.php"><img src="../Images/Thé.png" style="width:82%"></a>
+      <a href="../Article/Thé.php"><img src="../IMAGES/ARTICLES/Thé 1.jpg" style="width:50%"></a>
       <h1>Thé</h1>
       <p class="price">4.76€</p>
       <p><button>Ajoutez au panier</button></p>
     </div>
     <div class="card">
-      <img src="../Images/Harissa.webp" style="width:82%">
+      <img src="../IMAGES/ARTICLES/Harissa 1.jpg" style="width:50%">
       <h1>Harissa</h1>
       <p class="price">3.30€</p>
       <p><button>Ajoutez au panier</button></p>
