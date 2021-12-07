@@ -47,8 +47,8 @@ fieldset{
     
     <label for="pseudo"> Nom Utilisateur</label>
     <input type="text" name="pseudo" id="pseud" required pattern="^[A-Za-z'-]+$">
-    <label for="code">mot de passe</label>
-    <input type="password" name="code" id="codemd" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}$">
+    <label for="codemd">mot de passe</label>
+    <input type="password" name="codemd" id="codemd" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}$">
     <input class="envoie" type="submit" value="Envoie">
 
 

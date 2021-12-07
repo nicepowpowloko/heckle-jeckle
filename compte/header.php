@@ -25,6 +25,7 @@
         display: flex;
         font-family: "Algerian";
         text-align: center;
+       
     }
     
     header{
