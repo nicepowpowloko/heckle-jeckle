@@ -24,13 +24,13 @@ form input{
     border: 2px solid #F0A224;
     box-shadow: 10px 5px 5px #A14808;
     background: #612C11;
-    color:#C71F16;
+    color:white;
 }
 .envoie{
     font-family: "algerian";
 }
 fieldset{
-    background-image: url('../Images/dessert.jpg');
+    background-image: url('../Images Bordel/dessert.jpg');
     background-repeat: no-repeat;
     height: 80vh;
     border:  10px solid black;

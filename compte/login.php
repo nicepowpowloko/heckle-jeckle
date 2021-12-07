@@ -34,7 +34,7 @@ form input{
     font-family: "algerian";
 }
 fieldset{
-    background-image: url('../Images/marakesh1.jpg');
+    background-image: url('../Images Bordel/marakesh1.jpg');
     background-repeat: no-repeat;
     height: 60vh;
     border: 4px solid #F0A224;
