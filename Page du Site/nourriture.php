@@ -18,19 +18,19 @@ include '../acceuil/nav.php'
   <br>
 <div class="AR">
   <div class="card">
-    <img src="../Images/Couscous.jpg" style="width:82%">
+    <a href="../Article/Couscous.php"><img src="../Images/Couscous.jpg" style="width:82%"></a>
     <h1>Couscous</h1>
     <p class="price">3.20€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/Masala.webp" style="width:82%">
+    <a href="../Article/Massala.php"><img src="../Images/Masala.webp" style="width:82%"></a>
     <h1>Masala</h1>
     <p class="price">2.80€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../Images/Sardine Tajine.jpg" style="width:82%">
+    <a href="../Article/Sardine Tagine.php"><img src="../Images/Sardine Tajine.jpg" style="width:82%"></a>
     <h1>Tajine</h1>
     <p class="price">4.50€</p>
     <p><button>Ajoutez au panier</button></p>
@@ -45,7 +45,7 @@ include '../acceuil/nav.php'
       <p><button>Ajoutez au panier</button></p>
     </div>
     <div class="card">
-      <img src="../Images/Thé.png" style="width:82%">
+      <a href="../Article/Thé.php"><img src="../Images/Thé.png" style="width:82%"></a>
       <h1>Thé</h1>
       <p class="price">4.76€</p>
       <p><button>Ajoutez au panier</button></p>

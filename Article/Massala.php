@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Couscous</title>
+    <title>Massala</title>
 </head>
 <body>
 <?php
@@ -32,32 +32,27 @@ include '../acceuil/nav.php';
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-slide-modal">
             <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Couscous Regia 1.png">
+              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Massala 1.png">
             </div>
           </div>
           <div class="swiper-slide swiper-slide-modal">
             <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Couscous Regia 2.png">
+              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Massala 2.png">
             </div>
           </div>
           <div class="swiper-slide swiper-slide-modal">
             <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Couscous Regia 3.png">
+              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Massala 3.png">
             </div>
           </div>
           <div class="swiper-slide swiper-slide-modal">
             <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Couscous Regia 4.png">
+              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Massala 4.png">
             </div>
           </div>
           <div class="swiper-slide swiper-slide-modal">
             <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Couscous Regia 5.png">
-            </div>
-          </div>
-          <div class="swiper-slide swiper-slide-modal">
-            <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Couscous Regia 6.png">
+              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Massala 5.png">
             </div>
           </div>
         </div>
@@ -73,12 +68,11 @@ include '../acceuil/nav.php';
   <!-- Swiper -->
   <div class="swiper swiper-container-main">
     <div class="swiper-wrapper">
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Couscous Regia 1.png"></div>
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Couscous Regia 2.png"></div>
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Couscous Regia 3.png"></div>
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Couscous Regia 4.png"></div>
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Couscous Regia 5.png"></div>
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Couscous Regia 6.png"></div>
+      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Massala 1.png"></div>
+      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Massala 2.png"></div>
+      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Massala 3.png"></div>
+      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Massala 4.png"></div>
+      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Massala 5.png"></div>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
@@ -91,45 +85,38 @@ include '../acceuil/nav.php';
 <div class="swiper gallery-thumbs">
 	<div class="swiper-wrapper">
             <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Couscous Regia 1.png">  
+	 	<img src="../Images/Massala 1.png">  
             </div>
             <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Couscous Regia 2.png">  
+	 	<img src="../Images/Massala 2.png">  
             </div>
             <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Couscous Regia 3.png">  
+	 	<img src="../Images/Massala 3.png">  
             </div>
             <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Couscous Regia 4.png">  
+	 	<img src="../Images/Massala 4.png">  
             </div>
             <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Couscous Regia 5.png">  
+	 	<img src="../Images/Massala 5.png">  
             </div> 
-            <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Couscous Regia 6.png">  
- 	</div>
 </div>	
 
 	<h1>Description</h1>
-	<p>Dimensions du produit (L x l x h): 11.2 x 24 x 40 cm; 2 kilogrammes
-    <br>
-    Nom du produit: Graines de Couscous Moyennes
-    <br>
-    Poids net du produit: 2 Kilogrammes
-    <br>
-    Poids net égoutté: 2000 Grammes
-    <br>
-    Stockage: A conserver dans un endroit sec
-    <br>
-    Contact du fabricant: 4, Rue Boileau - LYON
-    <br>
-    Marque: Regia
-    <br>
-    Cuisine: Afrique
-    <br>
-    Fabricant: PANZANI
-    <br>
-    Poids de l'article: 2 kg </p>
+	<p>Dimensions du colis: 11.4 x 7.8 x 5 cm; 100 grammes
+  <br>
+  Poids net du produit: 0.1 Kilogrammes
+  <br>
+  Unités: 100.0 gramme
+  <br>
+  Stockage: A conserver dans un endroit sec et frais.
+  <br>
+  Marque: RAAJMAHAL
+  <br>
+  Fabricant: RAAJMAHAL
+  <br>
+  Poids de l'article: 100 g
+  <br>
+  Pays d'origine: Inde </p>
 
 
 <p><button>Acheter</button></p>
