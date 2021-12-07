@@ -5,7 +5,7 @@
             <a href="#">MES ADRESSES</a>
             <a href="../Page du Site/divers.php">MON COMPTE</a>
             <a href="#"> PANIER</a>
-            <a href="../Page du Site/index.php"class="conn"><img src="../Images/barraca-arabe-logo-png-transparent.png" height="50px">DECONNEXION</a>
+            <a href="../Page du Site/index.php"class="conn"><img src="../Images Bordel/barraca-arabe-logo-png-transparent.png" height="50px">DECONNEXION</a>
           </div> 
 </nav>
 

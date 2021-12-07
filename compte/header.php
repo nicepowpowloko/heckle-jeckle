@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <div class="logo"><img src="../Images/Logo.png" alt=""></div>
+    <div class="logo"><img src="../Images Bordel/Logo.png" alt=""></div>
     <div class="titre">
         <h1>LE BAZAR DE HECKLE ET JECKLE</h1>
     </div>
