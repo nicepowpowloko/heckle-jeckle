@@ -1,11 +1,4 @@
-<title>Couscous</title>
 <body>
-  <?php
-  include '../acceuil/en-tête.php';
-  ?>
-  <?php
-  include '../acceuil/nav.php';
-  ?>
   <main>
   <div class="container">
 	
@@ -51,9 +44,6 @@
   
 </div>
 
-<?php
-include '../acceuil/footer.php';
-?>
 <style>
   *,
 *::before,
@@ -62,10 +52,6 @@ include '../acceuil/footer.php';
 	padding: 0;
 	outline: none;
 	box-sizing: border-box;
-}
-
-main{
-  background: url('../IMAGES/Background.jpg');
 }
 
 body {
@@ -135,7 +121,7 @@ body {
 	display: inline-block;
 	width: 50%;
 	border: none;
-  color: black;
+  color: #ccc;
 	background-color: transparent;
 	padding: 0.2em 1.5em;
 }

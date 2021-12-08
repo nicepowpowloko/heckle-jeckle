@@ -26,7 +26,7 @@ include '../acceuil/nav.php'
   <div class="card">
     <img src="../IMAGES/ARTICLES/Danseuse 1.jpg" style="width:50%">
     <h1>Costumes Danse Orientale</h1>
-    <p class="price">65.80€</p>
+    <p class="price">128.34€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
@@ -47,7 +47,7 @@ include '../acceuil/nav.php'
   <div class="card">
     <img src="../IMAGES/ARTICLES/Kaftan 1.jpg" style="width:50%">
     <h1>Kaftan</h1>
-    <p class="price">128.34€</p>
+    <p class="price">65.80€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">

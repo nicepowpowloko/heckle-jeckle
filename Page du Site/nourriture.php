@@ -51,7 +51,7 @@ include '../acceuil/nav.php'
       <p><button>Ajoutez au panier</button></p>
     </div>
     <div class="card">
-      <img src="../IMAGES/ARTICLES/Harissa 1.jpg" style="width:50%">
+      <a href="../Article/Harissa.php"><img src="../IMAGES/ARTICLES/Harissa 1.jpg" style="width:50%"></a>
       <h1>Harissa</h1>
       <p class="price">3.30€</p>
       <p><button>Ajoutez au panier</button></p>

@@ -1,572 +1,260 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café arabe</title>
-</head>
+<title>Café</title>
 <body>
-<?php
-include '../acceuil/en-tête.php';
-?>
-<?php
-include '../acceuil/nav.php';
-?>
-
-<main>
-<head>
-  <meta charset="utf-8">
-  <title>Swiper demo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-</head>
-<body>
-
-  <div id="simpleModal" class="modal">
-    <div class="modal-content">
-      <span class="closeBtn">&times;</span>
-      <!-- Swiper modal -->
-      <div id="swiper-container-modal" class="swiper-container-modal">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide swiper-slide-modal">
-            <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Café.jpg">
-            </div>
-          </div>
-          <div class="swiper-slide swiper-slide-modal">
-            <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Café 2.jpg">
-            </div>
-          </div>
-          <div class="swiper-slide swiper-slide-modal">
-            <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Café 3.jpg">
-            </div>
-          </div>
-          <div class="swiper-slide swiper-slide-modal">
-            <div class="swiper-zoom-container">
-              <img class="swiper-lazy swiper-lazy-modal" data-src="../Images/Café 4.png">
-            </div>
-          </div>
-          
-        </div>
-        <!-- Add Pagination -->
-        <div id="swiper-pagination-modal" class="swiper-pagination"></div>
-        <!-- Add Pagination -->
-        <div id="swiper-button-next-modal" class="swiper-button-next"></div>
-        <div id="swiper-button-prev-modal" class="swiper-button-prev"></div>
+  <?php
+  include '../acceuil/en-tête.php';
+  ?>
+  <?php
+  include '../acceuil/nav.php';
+  ?>
+  <main>
+  <div class="container">
+	
+  <div class="feature">
+      <figure class="featured-item image-holder r-3-2 transition"></figure>
+  </div>
+  
+  <div class="gallery-wrapper">
+      <div class="gallery">
+              <div class="item-wrapper">
+                  <figure class="gallery-item image-holder r-3-2 active transition"></figure>
+              </div>
+              <div class="item-wrapper">
+                  <figure class="gallery-item image-holder r-3-2 transition"></figure>
+              </div>
+              <div class="item-wrapper">
+                  <figure class="gallery-item image-holder r-3-2 transition"></figure>
+              </div>
+              <div class="item-wrapper">
+                  <figure class="gallery-item image-holder r-3-2 transition"></figure>
+              </div>
+              <div class="item-wrapper">
+                  <figure class="gallery-item image-holder r-3-2"></figure>
+              </div>
+              <div class="item-wrapper">
+                  <figure class="gallery-item image-holder r-3-2"></figure>
+              </div>
+            
+             
+              
       </div>
-    </div>
   </div>
-
-  <!-- Swiper -->
-  <div class="swiper swiper-container-main">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Café.jpg"></div>
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Café 2.jpg"></div>
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Café 3.jpg"></div>
-      <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../Images/Café 4.png"></div>
   
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Pagination -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+  <div class="controls">
+      <button class="move-btn left">&larr;</button>
+      <button class="move-btn right">&rarr;</button>
   </div>
-
-      <!-- Swiper thumbnails -->
-<div class="swiper gallery-thumbs">
-	<div class="swiper-wrapper">
-            <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Café.jpg">  
-            </div>
-            <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Café 2.jpg">  
-            </div>
-            <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Café 3.jpg">  
-            </div>
-            <div class="swiper-slide swiper-slide-thumbs">     
-	 	<img src="../Images/Café 4.png">  
-            </div>
   
-</div>	
-
-	<h1>Description</h1>
-	<p>
-    Ouvrez les yeux et rafraîchissez vos sens même les matins les plus tôt et les plus léthargiques - il n'y a pas de meilleure pompe énergétique et de meilleure saveur de café que le café turc à la cardamome de Hamwi Café originaire de Damas en Syrie.
-    <br>
-    Délicatement audacieux aromatisé à la cardamome pour de nombreux bienfaits pour la santé et un arôme énorme. Noir et fort, avec l'agréable amertume que seul le café turc authentique peut offrir, il deviendra à coup sûr votre café moulu préféré pour l'ambiance et la saveur énergisante de la journée.
-    <br>
-    Dégustez un café turc original de Hamwi Café (plus de 60 ans de tradition), avec un mélange authentique de haute qualité.
-    <br> 
-    Préparation de rempotage traditionnelle.
-    <br>
-    Excellente expérience de café de style turc traditionnel ou argent remis, notre café arménien importé est sans risque.
-    <br>
-     Maintenant, vous pouvez ajouter au panier sans questions.
-</p>
-
-
-<p><button>Acheter</button></p>
-
-  <!-- Swiper JS -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  
-</body>
-</main>
-
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  
-  font-family: 'Arabela';
-  font-size: 16px;
-  background-image: url('../Images/Background.jpg');
-  margin: 0;
-  padding: 0;
-}
-
-
-
-/* ................................................ swiper gallery .......................................................... */
-
-.swiper {
-  width: 500px;
-  min-width: 300px;
-  height: auto;
-  padding-bottom: 15px;
-}
-
-.swiper-slide-img {
-  height: auto;
-  width: 100%;
-  border: 30px solid transparent;  /* move next and prev buttons off img */ 
-  min-height: 353px;
-  
-}
-
-.swiper-slide-img:hover {
-  cursor: pointer;
-}
-
-.gallery-thumbs .swiper-slide img:hover, .swiper-slide img:hover  {
-    cursor: pointer;
- 
-}
-
-.swiper-pagination {
-  background-color: #d8d8d8;
-  padding: 10px;
-}
-
-.swiper-button-prev {
-  position: absolute;
-  transform: translateX(-40%);
-  color: black;
-}
-
-.swiper-button-prev:focus {
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.swiper-button-next {
-  position: absolute;
-  transform: translateX(40%);
-  color: black;
-  font-weight: 900;
-}
-
-.swiper-button-next:focus {
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.swiper-pagination {
-  background: transparent;
-  border-radius: 10px;
-}
-
-/*active pagination*/
-.swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(255, 255, 255);
-}
-
-/*other pagination*/
-.swiper-pagination .swiper-pagination-bullet {
-  height: 15px;
-  width: 15px;
-}
-
-.swiper-pagination .swiper-pagination-bullet:hover {
-  transform: scale(1.2);
-  transition: all 0.5s;
-}
-
-.swiper-pagination .swiper-pagination-bullet:focus {
-    outline: none;
-    background-color: rgb(255, 255, 255);
-    -webkit-tap-highlight-color: rgb(248, 248, 248);
-}
-
-.minimum-height { 
-    min-height: 257px;
-
-    @include small-screen {
-        min-height: calc((0.3002 * 100vw) + 21.49px);
-    }
-}
-
-/* ................................................ thumbs .......................................................... */
-
-.gallery-thumbs {
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 40px;
-}
-
-.gallery-thumbs .swiper-slide {
-    width: 25%;
-    opacity: 0.8    ;
-}
-
-.gallery-thumbs .swiper-slide-thumb-active {
-    opacity: 1;
-}
-  
-.gallery-thumbs .swiper-slide img {
-    width: 100%;
-    height: 70px;
-    min-height: 40px;
-    object-fit: cover;
-}
-
-
-
-/* ................................................ modal .......................................................... */
-.modal {
-  display:none;
-  position: fixed;
-  z-index: 2;
-  left: 0;
-  top: 0;
-  height: 100vh;
-  width: 100vw;
-}
-
-.modal-content {
-  background-color: rgb(0, 0, 0);
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  min-width: 300px;
-  animation-name: modalOpen;
-  animation-duration: 1s;
-}
-
-.closeBtn {
-  position: absolute;  /* removed from normal flow of doc, positioned relative to its nearest ancestor (modal content)*/
-  z-index: 4;
-  color:white;
-  right: 5px;
-  font-size: 30px;
-}
-
- .closeBtn:hover,.closeBtn:focus {
-  color: rgb(114, 114, 114);
-  text-decoration: none;
-  cursor: pointer;
-}
-
-@keyframes modalOpen {
-  from{opacity: 0}
-  to {opacity: 1}
-}
-
-/* ............................................. modal swiper gallery ....................................................... */
-/* used ids higher specificity to override gallery styles */
-
-#swiper-container-modal {
-  z-index:3;
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  padding:0;
-  border:0;
-}
-
-#swiper-pagination-modal {
-  display:none; /* if pagination not included in modal... index.html pagination buttons dnt change (black for active slide)*/
-}
-
-#swiper-button-next-modal {
-  transform:translateX(-40%);
-  color: white;
-}
-
-#swiper-button-prev-modal {
-  transform:translateX(40%);
-  color: white;
-}
-
-.swiper-slide-modal {
-  height: 100vh;
-}
-
-.swiper-lazy-modal {
-  object-fit: contain;
-  border:0;  
-}
-/* ............................................. responsiveness ....................................................... */
-@media all and (max-width: 520px) {
-  .swiper {
-    width: calc(100vw - 20px);
-  }
-
-  .swiper-button-next:after {
-    font-size: 20px !important;
-    transform:translateX(60%);
-  }
-  
-  
-
-  .swiper-button-prev:after {
-    font-size: 20px !important;
-    transform:translateX(-60%);
-  }
-
-  #swiper-button-next-modal {
-    font-size: 20px !important;
-    transform:translateX(20%);
-  }
-  
-  #swiper-button-prev-modal {
-    font-size: 20px !important;
-    transform:translateX(-20%);
-  }
-
-  .swiper-pagination {
-    padding: 4px;
-  }
-
-  .swiper-slide-img {
-    width: calc(100vw-32px);
-    height: auto;
-    border: 16px solid #d8d8d8;  /* move next and prev buttons off img */ 
-    min-height: calc((0.5338 * 100vw) + 48.476px); 
-  }
-
-  .swiper-pagination .swiper-pagination-bullet {
-    height: 12px;
-    width: 12px;
-  }
-
-.gallery-thumbs .swiper-slide img {
-        height: 14vw;
-    }
-
-}
-
-
-@media all and (max-width: 360px) {
-  .swiper-slide-img {
-    border: 1px solid #d8d8d8; 
-  }
-}
-
-button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #00B2FE;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-button:hover {
-  opacity: 0.7;
-  background-color: orangered;
-}
-
-</style>
-
-<script>
- <!-- Initialize Swiper -->
-var galleryThumbs = new Swiper('.gallery-thumbs', {
-  spaceBetween: 10,
-  slidesPerView: 4,
-  freeMode: true,
-  watchSlidesVisibility: true,
-  watchSlidesProgress: true,
-  loop: true,
-  //autoHeight: true, //enable auto height
-  // Enable lazy loading
-  preloadImages: false,
-  lazy: true,
-  lazy: {
-    loadPrevNext: true,
-  },
-});
-
-
-var swiper = new Swiper('.swiper-container-main', {
-  autoHeight: true, //enable auto height
-
-  //runCallbacksOnInit: true,
-  observer: true,
-  observeParents: true,
-  observeChildren: true,
-  spaceBetween: 0,
-
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  loop: true,
-  preloadImages: false,
-  // Enable lazy loading
-  lazy: true,
-  lazy: {
-    loadPrevNext: true,
-  },
-
-  keyboard: {
-    enabled: true,
-  },
-
-  effect: 'coverflow',
-  coverflowEffect: {
-    rotate: 60,
-    slideShadows: false,
-  },
-  loop: true,
-  thumbs: {
-    swiper: galleryThumbs
-  }
-
-});
-
-// swiper - modal
-var swiperModal = new Swiper('.swiper-container-modal', {
-  observer: true,
-  observeParents: true,
-  observeChildren: true,
-  spaceBetween: 0,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  zoom: {
-    maxRatio: 2,
-    toggle: true,  // enable zoom-in by double tapping slide
-  },
-  loop: true,
-  preloadImages: false,
-  // Enable lazy loading
-  lazy: true,
-  lazy: {
-    loadPrevNext: true,
-    //loadOnTransitionStart: true,
-  },
-
-
-  effect: 'coverflow',
-  coverflowEffect: {
-    rotate: 60,
-    slideShadows: false,
-  },
-  loop: true,
-
-
-});
-
-
-// Create a Modal With HTML, CSS & JavaScript (https://www.youtube.com/watch?v=6ophW7Ask_0)
-const nonModalGalleryImgContainer = document.querySelector(
-  '.swiper-container-main'
-);
-const nonModalGalleryImgWrapper = nonModalGalleryImgContainer.querySelector(
-  '.swiper-wrapper'
-);
-// Get modal element
-var modal = document.getElementById('simpleModal');
-// Get open modal button
-var modalBtn = document.querySelectorAll('.swiper-slide-img'); // select all swiper-slides (outside modal)
-// close button
-var closeBtn = document.getElementsByClassName('closeBtn')[0]; // returns an array... just get first one (only one element with this class)
-
-function openModal() {
-  // prevent page scrolling when modal open: https://css-tricks.com/prevent-page-scrolling-when-a-modal-is-open/
-  // When the modal is shown, we want a fixed body
-  document.body.style.position = 'fixed'; // prevents scrolling
-  document.body.style.top = `-${window.scrollY}px`; // subtract scroll top, add to body styles
-
-  let swiperIndexPos = swiper.activeIndex;
-  swiperModal.slideTo(swiperIndexPos);
-  swiperModal.lazy.load(); // need to initailize lazy load if modal opened
-  modal.style.display ='block';
-  swiper.keyboard.disable();
-  swiperModal.keyboard.enable();
-  document.addEventListener('keydown', closeModalWithKeyboard);
-}
-
-modalBtn.forEach(element => { 
-  element.addEventListener('click', openModal); // add an click event listener for each swiper-slide (outside the modal)
-})
-
-function openModalWithKeyboard(event) {
-  if (event.key === 'Enter') {
-    openModal();
-  }
-}
-
-// open modal if non-modal image wrapper is in focus and enter is hit
-nonModalGalleryImgContainer.addEventListener('keydown', openModalWithKeyboard);
-
-
-function closeModal() {          
-  // prevent page scrolling when modal open: https://css-tricks.com/prevent-page-scrolling-when-a-modal-is-open/
-  // When the modal is hidden...
-  const scrollY = document.body.style.top; // retrieve scroll location
-  document.body.style.position = '';
-  document.body.style.top = '';
-  window.scrollTo(0, parseInt(scrollY || '0') * -1);
-
-  let swiperModalIndexPos = swiperModal.activeIndex;
-  swiper.slideTo(swiperModalIndexPos);
-  modal.style.display = 'none';
-  swiperModal.keyboard.disable();
-  swiper.keyboard.enable();
-  document.removeEventListener('keydown', closeModalWithKeyboard);
-}
-
-// Listen for close click
-closeBtn.addEventListener('click', closeModal);
-
-// close modal using Escape key 
-function closeModalWithKeyboard(event) {
-  if (event.key === 'Escape') {
-    closeModal();
-  }
-}  
-</script>
+</div>
 
 <?php
 include '../acceuil/footer.php';
 ?>
+<style>
+  *,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+main{
+  background: url('../IMAGES/Background.jpg');
+}
+
+body {
+	margin: 0;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #707070;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 700px;
+	max-height: 100vh;
+}
+
+
+/* Useful Classes */
+.xy-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.transition {
+	transition: all 350ms ease-in-out;
+}
+
+.r-3-2 {
+	width: 100%;
+	padding-bottom: 66.667%;
+}
+
+.image-holder {
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+
+/* Main Styles */
+.gallery-wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.gallery {
+	position: relative;
+	white-space: nowrap;
+	font-size: 0;
+}
+
+.item-wrapper {
+	cursor: pointer;
+	width: 23%; /* arbitrary value */
+	display: inline-block;
+	background-color: white;
+}
+
+.gallery-item { opacity: 0.5; }
+.gallery-item.active { opacity: 1; }
+
+.controls {
+	font-size: 0;
+	border-top: none;
+}
+.move-btn {
+	display: inline-block;
+	width: 50%;
+	border: none;
+  color: black;
+	background-color: transparent;
+	padding: 0.2em 1.5em;
+}
+.move-btn:first-child {border-right: none;}
+.move-btn.left  { cursor: w-resize; }
+.move-btn.right { cursor: e-resize; }
+</style>
+
+<script>
+  var gallery = document.querySelector('.gallery');
+var galleryItems = document.querySelectorAll('.gallery-item');
+var numOfItems = gallery.children.length;
+var itemWidth = 23; // percent: as set in css
+
+var featured = document.querySelector('.featured-item');
+
+var leftBtn = document.querySelector('.move-btn.left');
+var rightBtn = document.querySelector('.move-btn.right');
+var leftInterval;
+var rightInterval;
+
+var scrollRate = 0.2;
+var left;
+
+function selectItem(e) {
+	if (e.target.classList.contains('active')) return;
+	
+	featured.style.backgroundImage = e.target.style.backgroundImage;
+	
+	for (var i = 0; i < galleryItems.length; i++) {
+		if (galleryItems[i].classList.contains('active'))
+			galleryItems[i].classList.remove('active');
+	}
+	
+	e.target.classList.add('active');
+}
+
+function galleryWrapLeft() {
+	var first = gallery.children[0];
+	gallery.removeChild(first);
+	gallery.style.left = -itemWidth + '%';
+	gallery.appendChild(first);
+	gallery.style.left = '0%';
+}
+
+function galleryWrapRight() {
+	var last = gallery.children[gallery.children.length - 1];
+	gallery.removeChild(last);
+	gallery.insertBefore(last, gallery.children[0]);
+	gallery.style.left = '-23%';
+}
+
+function moveLeft() {
+	left = left || 0;
+
+	leftInterval = setInterval(function() {
+		gallery.style.left = left + '%';
+
+		if (left > -itemWidth) {
+			left -= scrollRate;
+		} else {
+			left = 0;
+			galleryWrapLeft();
+		}
+	}, 1);
+}
+
+function moveRight() {
+	//Make sure there is element to the leftd
+	if (left > -itemWidth && left < 0) {
+		left = left  - itemWidth;
+		
+		var last = gallery.children[gallery.children.length - 1];
+		gallery.removeChild(last);
+		gallery.style.left = left + '%';
+		gallery.insertBefore(last, gallery.children[0]);	
+	}
+	
+	left = left || 0;
+
+	leftInterval = setInterval(function() {
+		gallery.style.left = left + '%';
+
+		if (left < 0) {
+			left += scrollRate;
+		} else {
+			left = -itemWidth;
+			galleryWrapRight();
+		}
+	}, 1);
+}
+
+function stopMovement() {
+	clearInterval(leftInterval);
+	clearInterval(rightInterval);
+}
+
+leftBtn.addEventListener('mouseenter', moveLeft);
+leftBtn.addEventListener('mouseleave', stopMovement);
+rightBtn.addEventListener('mouseenter', moveRight);
+rightBtn.addEventListener('mouseleave', stopMovement);
+
+
+//Start this baby up
+(function init() {
+	var images = [
+		'https://m.media-amazon.com/images/I/61wIrh5KaEL._AC_SL1280_.jpg',
+		'https://m.media-amazon.com/images/I/41wJX0Ry8nL._AC_.jpg',
+		'https://m.media-amazon.com/images/I/41G2YP7GJzL._AC_.jpg',
+		'https://m.media-amazon.com/images/I/51ScCqyTlpL._AC_.jpg',
+		'https://m.media-amazon.com/images/I/21jTpOvx1dL._AC_.jpg',
+		'https://m.media-amazon.com/images/I/21AcCYeOzIL._AC_.jpg',
+		
+	];
+	
+	//Set Initial Featured Image
+	featured.style.backgroundImage = 'url(' + images[0] + ')';
+	
+	//Set Images for Gallery and Add Event Listeners
+	for (var i = 0; i < galleryItems.length; i++) {
+		galleryItems[i].style.backgroundImage = 'url(' + images[i] + ')';
+		galleryItems[i].addEventListener('click', selectItem);
+	}
+})();
+</script>
+  </main>
 </body>
-</html>
