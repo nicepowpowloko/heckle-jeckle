@@ -30,7 +30,7 @@ include '../acceuil/nav.php'
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../IMAGES/ARTICLES/Lampe 1.jpg" style="width:50%">
+    <a href="../Article/Lampe.php"><img src="../IMAGES/ARTICLES/Lampe 1.jpg" style="width:50%"></a>
     <h1>Lampe</h1>
     <p class="price">920.50€</p>
     <p><button>Ajoutez au panier</button></p>
@@ -39,19 +39,19 @@ include '../acceuil/nav.php'
 <br>
 <div class="AR">
   <div class="card">
-      <img src="../IMAGES/ARTICLES/Ensemble Thé 1.jpg" style="width:50%">
+      <a href="../Article/Ensemble de Thé.php"><img src="../IMAGES/ARTICLES/Ensemble Thé 1.jpg" style="width:50%"></a>
       <h1>Ensemble de thé</h1>
-      <p class="price">23.12€</p>
+      <p class="price">42.96€</p>
       <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../IMAGES/ARTICLES/Couscoussier 1.jpg" style="width:50%">
+    <a href="../Article/Couscoussier.php"><img src="../IMAGES/ARTICLES/Couscoussier 1.jpg" style="width:50%"></a>
     <h1>Couscoussier</h1>
     <p class="price">80.50€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../IMAGES/ARTICLES/Service de Table 1.jpg" style="width:50%">
+    <a href="../Article/Service de Table.php"><img src="../IMAGES/ARTICLES/Service de Table 1.jpg" style="width:50%"></a>
     <h1>Service de Table</h1>
     <p class="price">150.80€</p>
     <p><button>Ajoutez au panier</button></p>

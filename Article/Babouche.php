@@ -7,6 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
+	  <h1>CHAUSSURES & CHAUSSONS EN CUIR pour Homme, Babouches Marocaines"Dambira", Mules confortable 100% cuir. Cadeau parfait pour lui. </h1>
   <div class="container">
 	
   <div class="feature">
@@ -55,6 +56,46 @@
   
 </div>
 
+<div class="description">
+    <p> À propos de cet article
+    <br>
+    Cette babouche tout terrain devient rapidement très souple et se porte partout, et avec tout.
+En extérieur ou à la maison, vous ne voudrez plus les quitter.
+<br><br>
+Très confortables, ces babouches sont destinées à tous les usages.
+Fabriquées en cuir naturel et équipées d'une semelle en élastomère très résistante, ces mules allient robustesse et bien-être en toutes occasions.
+Comptez 2 ou 3 jours d'utilisation pour les assouplir correctement.
+<br><br>
+Pour vos commandes, choisissez toujours votre pointure habituelle en chaussures de ville de préférence.
+<br><br>
+Les chaussures en cuir sont tannées de manière végétale de façon 100% naturelle.
+Aucun additif toxique n'a été ajouté, il n'y a donc aucune crainte d'allergies.
+Comme tous nos produits sont faits à la main, il peut y avoir de légères variations dans la conception des chaussures.
+<br><br>
+La livraison est mondiale par FEDEX express et recommandé.
+Pour chaque envoi, un numéro de suivi sera envoyé immédiatement.
+Vous le trouverez également sur Amazon et pourrez suivre votre envoi à tout moment.
+<br><br>
+Pour vos demandes de vente en gros ou de fabrication personnalisée pour les mariages et les événements, veuillez me contacter par message à tout moment, je serai heureuse de vous aider.
+Avec tous mes remerciements
+<br>
+Sabrina.
+<br><br>
+	Extérieur Cuir
+	<br>
+    Intérieur croûte de cuir
+	<br>
+    Renfort Talon
+	<br>
+    Semelle épaisse en élastomère collée et cousue.
+	<br>
+    Livraison Express Offerte
+
+    </p>
+</div>
+
+<br>
+
 <?php
 include '../acceuil/footer.php';
 ?>
@@ -75,7 +116,21 @@ main{
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {

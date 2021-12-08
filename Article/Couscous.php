@@ -7,6 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
+	  <h1>Regia de Couscous Moyenne L'Étui 1Kg graine - Lot de 2 </h1>
   <div class="container">
 	
   <div class="feature">
@@ -51,6 +52,26 @@
   
 </div>
 
+<div class="description">
+    <p> À propos de cet article
+    <br>
+    Les graines de couscous Moyen Régia sont lumineuses et légères à la texture moelleuse à souhait.
+	<br><br>
+    Rapides et faciles à préparer, les graines de couscous Moyen Régia accompagnent viandes et poissons et se déclinent en d'innombrables recettes : taboulé, gratins, gâteaux…
+	<br><br>
+    Omniprésente dans l'alimentation des peuples latins et du Moyen Orient de l'Antiquité, la semoule de blé est aujourd'hui autant appréciée que le riz et les pâtes dans les cuisines du Monde.
+	<br><br>
+    La graine de couscous Régia est fabriquée en s'inspirant du savoir-faire ancestral de roulage et de cuisson à la vapeur, originaire d'Afrique du Nord. Régia a su également sélectionner les meilleurs blés pour vous faire retrouver les saveurs originelles de la cuisine du Maghreb.
+
+    </p>
+</div>
+
+<br>
+    </p>
+</div>
+
+<br>
+
 <?php
 include '../acceuil/footer.php';
 ?>
@@ -71,7 +92,21 @@ main{
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {

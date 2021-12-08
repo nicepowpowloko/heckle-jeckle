@@ -1,4 +1,4 @@
-<title>Chicha</title>
+<title>Ensemble de Thé</title>
 <body>
   <?php
   include '../acceuil/en-tête.php';
@@ -7,7 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
-	  <h1>HOOKKING Chicha stylé design narguilé en acrylique de qualité 38cm tuyau foyer et assiette (NOIR) </h1>
+	  <h1>Ensemble de thé marocain complet, théière à induction avec filtre intégré 1,6 L + plateau rond avec poignées de 35 cm de diamètre et 4 verres en verre doré</h1>
   <div class="container">
 	
   <div class="feature">
@@ -37,6 +37,12 @@
               <div class="item-wrapper">
                   <figure class="gallery-item image-holder r-3-2"></figure>
               </div>
+              <div class="item-wrapper">
+                  <figure class="gallery-item image-holder r-3-2"></figure>
+              </div>
+              <div class="item-wrapper">
+                  <figure class="gallery-item image-holder r-3-2"></figure>
+              </div>
             
              
               
@@ -53,15 +59,11 @@
 <div class="description">
     <p> À propos de cet article
     <br>
-    ✔Designe et à la mode, symbole de la zen attitude, convivialité et de l’apaisement. Le lâcher prise. Profitez pleinement de la fumée autour d'un bel objet d'expérience sensorielle
+    Beau pack complet marocain : comprend 1 théière fabriquée en acier inoxydable de haute qualité et matériaux sûrs. de 1,6 l
 	<br>
-    ✔Seule ou entre amis profitez des bienfaits de la vapeur de chicha pour rêver ou vous décontracté.
+    4 verres avec dimensions : hauteur env. 10 cm. Diamètre du bord : environ 6,5 cm.
 	<br>
-    ✔Conçue en acrylique, aluminium robuste et un tuyau en silicone pour une hygiène optimale.
-	<br>
-    ✔Débutant ou expérimenté, légère et transportable, stylé et facile à monter parfait pour tout type de soirée.
-	<br>
-    ✔Besoin d'aide ? Des questions ? Contactez nous nous sommes à votre disposition 24H/24 7j /7
+    1 plateau rond avec poignées argentées et dorées, 34 x 34 cm
 
     </p>
 </div>
@@ -273,13 +275,15 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 //Start this baby up
 (function init() {
 	var images = [
-		'https://m.media-amazon.com/images/I/71L5hm4Cs6L._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/61hNkx6BIDL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/61qnLBdSHnL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/61emt0SAYGL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/61cPN5xBvpL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/610gHpaRCpL._AC_SL1450_.jpg',
-		'https://m.media-amazon.com/images/I/61Zc3aqTOgS._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/91Y1m1F61ZL._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/91y0IZfNkjL._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/81fNq6hM0sS._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/71mC0fb+FTS._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/814V8DIzT+L._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/91yJjcC886L._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/81N3h3K92oL._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/91VOrmqQyQL._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/91P+VrvREIL._AC_SL1500_.jpg',
 		
 	];
 	

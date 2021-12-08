@@ -1,4 +1,4 @@
-<title>Chicha</title>
+<title>Service de Table</title>
 <body>
   <?php
   include '../acceuil/en-tête.php';
@@ -7,7 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
-	  <h1>HOOKKING Chicha stylé design narguilé en acrylique de qualité 38cm tuyau foyer et assiette (NOIR) </h1>
+    <h1>VEWEET, série Audrie, Service de Table Complet en Porcelaine, 32 pièces pour 8 Personnes, Style Marocain </h1>
   <div class="container">
 	
   <div class="feature">
@@ -37,6 +37,9 @@
               <div class="item-wrapper">
                   <figure class="gallery-item image-holder r-3-2"></figure>
               </div>
+              <div class="item-wrapper">
+                  <figure class="gallery-item image-holder r-3-2"></figure>
+              </div>
             
              
               
@@ -53,16 +56,27 @@
 <div class="description">
     <p> À propos de cet article
     <br>
-    ✔Designe et à la mode, symbole de la zen attitude, convivialité et de l’apaisement. Le lâcher prise. Profitez pleinement de la fumée autour d'un bel objet d'expérience sensorielle
-	<br>
-    ✔Seule ou entre amis profitez des bienfaits de la vapeur de chicha pour rêver ou vous décontracté.
-	<br>
-    ✔Conçue en acrylique, aluminium robuste et un tuyau en silicone pour une hygiène optimale.
-	<br>
-    ✔Débutant ou expérimenté, légère et transportable, stylé et facile à monter parfait pour tout type de soirée.
-	<br>
-    ✔Besoin d'aide ? Des questions ? Contactez nous nous sommes à votre disposition 24H/24 7j /7
-
+    SERVICE COMPLET POUR 8 PERSONNES √
+    <br>
+    Contenue: 8 assiettes plates de 27cm + 8 assiettes à dessert de 19cm + 8 bols de 600ml + 8 tasses de 370ml; Comptatible au four, micro-ondes, lave-vaiselle
+    <br>
+    NATURE ET DESIGN ÉLÉGANT √
+    <br>
+    Les designers apportent l'inspiration des éléments naturels, pouvant facilement correspondre à la vaisselle existe dans votre cuisine
+    <br>
+    FABRIQUÉ EN PORCELAINE SANTÉ ET SÉCURITAIRE √
+    <br>
+    Appartenant à la deuxième torréfaction à haute température de céramiques saines, la surface est solide et dense, ne provoquera aucune réaction chimique avec les aliments
+    <br>
+    SERVICE D'ARRÈES-VENT ASSURÉ √
+    <br>
+    Si vous avez reçu l'article cassé ou ébréché, veuillez nous contacter, nous vous ferrons une solution satisfaisante sans soucis
+    <br>
+    ROBUSTESSE ET DURABLE DANS LA CONCEPTION √
+    <br>
+    Non collant et très facile à nettoyer, va en toute sécurité au lave-vaisselle et micro-ondes.
+    <br>
+    La force est deux fois la céramique ordinaire, prenez garde et ils resteront avec votre famille après des années
     </p>
 </div>
 
@@ -166,7 +180,7 @@ h1{
 	display: inline-block;
 	width: 50%;
 	border: none;
-  color: black;
+    color: black;
 	background-color: transparent;
 	padding: 0.2em 1.5em;
 }
@@ -273,13 +287,14 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 //Start this baby up
 (function init() {
 	var images = [
-		'https://m.media-amazon.com/images/I/71L5hm4Cs6L._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/61hNkx6BIDL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/61qnLBdSHnL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/61emt0SAYGL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/61cPN5xBvpL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/610gHpaRCpL._AC_SL1450_.jpg',
-		'https://m.media-amazon.com/images/I/61Zc3aqTOgS._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/913tHECjy2L._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/81g2gWiAIVL._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/81hMrAmAqcL._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/91rR08a07QL._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/81vBwcDhl7L._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/813Aj5LXN7L._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/81HuJDPN7qL._AC_SL1500_.jpg',
+		'https://m.media-amazon.com/images/I/81o+yFnj10L._AC_SL1500_.jpg',
 		
 	];
 	

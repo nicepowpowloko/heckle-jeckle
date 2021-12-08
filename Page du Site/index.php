@@ -19,8 +19,8 @@ include '../acceuil/nav.php'
 
 <main>
 <div class="phrases">
-    <img src="../Images/Laissez vous emportez par le souffle de l'Orient.png" width="90%">
-    <img src="../Images/Le véritable souk.jpg" width="90%">
+    <img src="../IMAGES/INDEX/Citation 1.png" width="90%">
+    <img src="../IMAGES/INDEX/Citation 2.jpg" width="90%">
 </div>
     
 <div class="slideshow-container">

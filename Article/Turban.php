@@ -7,6 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
+	  <h1>3 Pièces Turban Africain Écharpe de Tête Turban Bohème Bonnet Noué Élastique (Jaune, Orange et Vert) </h1>
   <div class="container">
 	
   <div class="feature">
@@ -70,7 +71,21 @@ main{
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {

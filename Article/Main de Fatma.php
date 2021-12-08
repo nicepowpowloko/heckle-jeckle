@@ -7,6 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
+	  <h1>Aurora Tears 925 Sterling Silver Hamsa Fatima Collier À La Main De Boucles d'oreilles en Mauvais Oeil Pendentif Boucle d'oreille avec CZ Rencontres Cadeaux pour Femmes</h1>
   <div class="container">
 	
   <div class="feature">
@@ -49,6 +50,24 @@
   
 </div>
 
+<div class="description">
+    <p> À propos de cet article
+    <br>
+    ❤Matériel: Avec pendentif en argent sterling 925, 100% sans danger pour les peaux sensibles, chaîne plaquée argent.
+	<br><br>
+    ❤Taille: pendentif, 1.12*2.1cm, chaîne, longueur 45 cm, largeur 1 mm. Veuillez vérifier avant de passer des commandes.
+	<br><br>
+    ❤Choice Choix du cadeau: Cadeaux d'anniversaire parfaits pour elle, pour votre épouse, maman, fille, grand-mère, petite amie, amis, quelqu'un de spécial ou tout simplement pour un cadeau pour vous-même. , Jour de Thanksgiving, Nouvel An et Anniversaire ou tout simplement la vie quotidienne.
+	<br><br>
+    ❤Emballage: 1 pendentif + 1 chaîne. Avec 1 boîte cadeau élégante, Prêt à vous faire plaisir ou cadeau pour vos amours.
+	<br><br>
+    ❤Garantie: Satisfaction à 100% et garantie de remboursement, toute question, n'hésitez pas à nous contacter. Aurora Tears lance des produits tous les mois, son objectif est de lui apporter tout ce qui la rend spéciale avec des cadeaux uniques et magnifiques!
+
+    </p>
+</div>
+
+<br>
+
 <?php
 include '../acceuil/footer.php';
 ?>
@@ -69,7 +88,21 @@ main{
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {
