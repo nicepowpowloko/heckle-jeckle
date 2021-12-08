@@ -15,7 +15,7 @@
         </div>
         <div class="droite">
             <h1>Contact</h1>
-            <a href="../Page du Site/formulaire.php"><p>Formulaire</p></a>
+            <a href="../formulaire/formulaire.php"><p>Formulaire</p></a>
             <p>Mentions Légales</p>
         </div>
         </div>
