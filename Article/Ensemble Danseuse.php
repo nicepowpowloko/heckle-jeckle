@@ -1,4 +1,4 @@
-<title>Turban</title>
+<title>Ensemble Danseuse</title>
 <body>
   <?php
   include '../acceuil/en-tête.php';
@@ -30,13 +30,7 @@
               <div class="item-wrapper">
                   <figure class="gallery-item image-holder r-3-2"></figure>
               </div>
-              <div class="item-wrapper">
-                  <figure class="gallery-item image-holder r-3-2"></figure>
-              </div>
-              <div class="item-wrapper">
-                  <figure class="gallery-item image-holder r-3-2"></figure>
-              </div>
-              
+            
             
              
               
@@ -241,13 +235,11 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 //Start this baby up
 (function init() {
 	var images = [
-		'https://m.media-amazon.com/images/I/81lJ6RNhaqL._AC_UX679_.jpg',
-		'https://m.media-amazon.com/images/I/71ygEpMuvNL._AC_UX522_.jpg',
-		'https://m.media-amazon.com/images/I/81qywEwRPmL._AC_UX522_.jpg',
-		'https://m.media-amazon.com/images/I/81Mu-5V15aL._AC_UX522_.jpg',
-		'https://m.media-amazon.com/images/I/71YJ+Va0cML._AC_UX522_.jpg',
-		'https://m.media-amazon.com/images/I/7168uN4zA5L._AC_UX522_.jpg',
-		'https://m.media-amazon.com/images/I/71zfAUAFyPL._AC_UX522_.jpg',
+		'https://m.media-amazon.com/images/I/61nj4jQVHGL._AC_SX522._SX._UX._SY._UY_.jpg',
+		'https://m.media-amazon.com/images/I/61Ps734zqxL._AC_SX522._SX._UX._SY._UY_.jpg',
+		'https://m.media-amazon.com/images/I/51J+feuLNpL._AC_SX522._SX._UX._SY._UY_.jpg',
+		'https://m.media-amazon.com/images/I/61JNfQq6G0L._AC_SX522._SX._UX._SY._UY_.jpg',
+		'https://m.media-amazon.com/images/I/61+91uLXLxL._AC_SX522._SX._UX._SY._UY_.jpg',
 		
 	];
 	

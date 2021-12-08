@@ -18,13 +18,13 @@ include '../acceuil/nav.php'
   <br>
 <div class="AR">
   <div class="card">
-    <img src="../IMAGES/ARTICLES/Turban 1.jpg" style="width:50%">
+    <a href="../Article/Turban.php"><img src="../IMAGES/ARTICLES/Turban 1.jpg" style="width:50%"></a>
     <h1>Turban</h1>
     <p class="price">24.90€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../IMAGES/ARTICLES/Danseuse 1.jpg" style="width:50%">
+    <a href="../Article/Ensemble Danseuse.php"><img src="../IMAGES/ARTICLES/Danseuse 1.jpg" style="width:50%"></a>
     <h1>Costumes Danse Orientale</h1>
     <p class="price">128.34€</p>
     <p><button>Ajoutez au panier</button></p>
@@ -39,13 +39,13 @@ include '../acceuil/nav.php'
 <br>
 <div class="AR">
   <div class="card">
-    <img src="../IMAGES/ARTICLES/Fatma 1.jpg" style="width:50%">
+    <a href="../Article/Main de Fatma.php"><img src="../IMAGES/ARTICLES/Fatma 1.jpg" style="width:50%"></a>
     <h1>Main de Fatma</h1>
     <p class="price">75.50€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
-    <img src="../IMAGES/ARTICLES/Kaftan 1.jpg" style="width:50%">
+    <a href="../Article/Kaftan.php"><img src="../IMAGES/ARTICLES/Kaftan 1.jpg" style="width:50%"></a>
     <h1>Kaftan</h1>
     <p class="price">65.80€</p>
     <p><button>Ajoutez au panier</button></p>
