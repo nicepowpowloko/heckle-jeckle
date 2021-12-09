@@ -30,7 +30,6 @@
     }
 
 
-
     footer{
         flex-wrap: wrap;
         color: #00B2FE;
