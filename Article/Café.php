@@ -7,6 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
+	  <h1>Mehmet Efendi Turkish Coffee, 500-Gram Can by Mehmet Efendi </h1>
   <div class="container">
 	
   <div class="feature">
@@ -46,6 +47,33 @@
   
 </div>
 
+<div class="description">
+    <p> À propos de cet article
+    <br>
+	Forme de l'article: Moulue
+	<br>
+Marque: MEHMET EFENDI
+<br>
+Saveur: Café.
+<br>
+Teneur en caféine: Caffeinated
+<br>
+Informations sur l'emballage: Boîte, Canette
+<br>
+Poids de l'article: 250 Grammes
+<br>
+Nombre d'unités: 500 gramme
+<br>
+Dimensions de l'article L x l x H: 10 x 10 x 18 centimètres
+<br>
+Poids du colis: 0.62 Kilogrammes
+<br>
+Spécialité: Sans graisse.
+    </p>
+</div>
+
+<br>
+
 <?php
 include '../acceuil/footer.php';
 ?>
@@ -66,7 +94,21 @@ main{
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {

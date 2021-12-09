@@ -7,6 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
+	  <h1>RAAJMAHAL Garam Masala 50 g - Lot de 2 </h1>
   <div class="container">
 	
   <div class="feature">
@@ -46,6 +47,29 @@
   
 </div>
 
+<div class="description">
+    <p> À propos de cet article
+    <br>
+    Dimensions du colis: 11.4 x 7.8 x 5 cm; 100 grammes
+	<br>
+Poids net du produit: 0.1 Kilogrammes
+<br>
+Unités: 100.0 gramme
+<br>
+Stockage: A conserver dans un endroit sec et frais.
+<br>
+Marque: RAAJMAHAL
+<br>
+Fabricant: RAAJMAHAL
+<br>
+Poids de l'article: 100 g
+<br>
+Pays d'origine: Inde 
+    </p>
+</div>
+
+<br>
+
 <?php
 include '../acceuil/footer.php';
 ?>
@@ -66,7 +90,21 @@ main{
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {

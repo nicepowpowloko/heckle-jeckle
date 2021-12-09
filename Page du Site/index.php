@@ -26,17 +26,17 @@ include '../acceuil/nav.php'
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="../Images/Nourriture Banner.jpg" style="width:100%">
+  <img src="../IMAGES/INDEX/Slide 1.jpg" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-  <img src="../Images/Banner 2.jpg" style="width:100%">
+  <img src="../IMAGES/INDEX/Slide 2.jpg" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <img src="../Images/Banner 3.webp" style="width:100%">
+  <img src="../IMAGES/INDEX/Slide 3.jpg" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <img src="../Images/Banner 4.jpg" style="width:100%">
+  <img src="../IMAGES/INDEX/Slide 4.jpg" style="width:100%">
 </div>
 
 

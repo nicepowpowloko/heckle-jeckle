@@ -7,6 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
+	  <h1>DEA Harissa 120 g</h1>
   <div class="container">
 	
   <div class="feature">
@@ -46,6 +47,21 @@
   
 </div>
 
+<div class="description">
+    <p> À propos de cet article
+    <br>
+    Marque: DEA
+	<br>
+Poids de l'article: 0.03 Livres
+<br>
+Spécialité: Végétarienne
+<br>
+Poids du colis: 0.16 Kilogrammes
+    </p>
+</div>
+
+<br>
+
 <?php
 include '../acceuil/footer.php';
 ?>
@@ -66,7 +82,21 @@ main{
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {

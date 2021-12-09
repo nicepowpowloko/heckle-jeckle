@@ -7,6 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
+	  <h1>Caykur Rize haute qualité thé noir turc de Turquie (500g)</h1>
   <div class="container">
 	
   <div class="feature">
@@ -41,6 +42,27 @@
   
 </div>
 
+<div class="description">
+    <p> À propos de cet article
+    <br>
+    Marque: Caykur
+	<br>
+Saveur: Earl grey
+<br>
+Format: Séché
+<br>
+Dimensions de l'article L x l x H: 20.5 x 10.5 x 7 centimètres
+<br>
+Poids de l'article: 500 Grammes
+<br>
+Unités: 500 gramme
+<br>
+Spécialité: Sans gras
+    </p>
+</div>
+
+<br>
+
 <?php
 include '../acceuil/footer.php';
 ?>
@@ -61,7 +83,21 @@ main{
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {

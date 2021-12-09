@@ -7,6 +7,7 @@
   include '../acceuil/nav.php';
   ?>
   <main>
+	  <h1>KoRo - Dattes Medjool Medium delight bio | 1 kg - Au goût de miel sucré, super tendre </h1>
   <div class="container">
 	
   <div class="feature">
@@ -46,6 +47,24 @@
   
 </div>
 
+<div class="description">
+    <p> À propos de cet article
+    <br>
+    🌱 NATUREL : Pour nos dattes Medjool, nous évitons délibérément l'ajout de sucre et d'exhausteurs de goût.
+	<br><br>
+    🌈 POLYVALENCE : Les dattes Medjool peuvent être présentées de différentes manières : enrobées de bacon, fourrées au fromage ou aux noix, dans les mueslis ou simplement dégustées nature.
+	<br><br>
+    ✨ INESTIMABLE : Les dattes sont riches en calcium, magnésium, potassium et vitamines du groupe B.
+	<br><br>
+    🚀 POUR VOUS : Les dattes sont naturellement sans gluten. Elles conviennent également à un régime végétarien et végétalien.
+	<br><br>
+    🏅 PRINCIPES : Chez KoRo, nous nous sommes donné pour mission de vous fournir la meilleure qualité à des prix équitables dans des emballages grand format. C'est pourquoi nous offrons à vos produits préférés des emballages durables de qualité !
+
+    </p>
+</div>
+
+<br>
+
 <?php
 include '../acceuil/footer.php';
 ?>
@@ -66,7 +85,21 @@ main{
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {
