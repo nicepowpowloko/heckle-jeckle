@@ -16,17 +16,35 @@ include '../acceuil/nav.php'
 
 <main>
   <br>
+  <?php
+  
+try{
+  $pdo = new PDO('mysql:host=localhost;dbname=bazar;charset=utf8', 'root', '');
+  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+  $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);  
+  
+  }catch(PDOException $e){
+      echo 'Erreur ' . $e;
+  }
+  
+  $req = $pdo->prepare("SELECT * FROM nourriture");
+  $req->execute();
+?>
+
+
+
+  <?php while($data = $req->fetch(PDO::FETCH_OBJ)):?>
 <div class="AR">
   <div class="card">
     <a href="../Article/Couscous.php"><img src="../IMAGES/ARTICLES/Couscous 1.jpg" style="width:50%"></a>
-    <h1>Couscous</h1>
-    <p class="price">3.20€</p>
+    <h1> <?= $data->articles ?> </h1>
+    <p class="price"> <?= $data->prix?>€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
     <a href="../Article/Massala.php"><img src="../IMAGES/ARTICLES/Masala 1.jpg" style="width:50%"></a>
-    <h1>Masala</h1>
-    <p class="price">2.80€</p>
+    <h1> <?= $data->articles ?> </h1>
+    <p class="price"> <?= $data->prix?>€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
   <div class="card">
@@ -57,6 +75,12 @@ include '../acceuil/nav.php'
       <p><button>Ajoutez au panier</button></p>
     </div>
 </div>
+<?php endwhile;?>
+
+<?php
+$pdo = null;
+?>
+
 <br>
 </main>
 
