@@ -33,6 +33,8 @@ $db = new DB();
    
   <div class="card">
     <a href="../Article/Couscous.php"><img src ="<?=$product->image ?>" style="width:50%"></a>
+
+    
     <h1> <?= $product->articles ?> </h1>
     <p class="price"> <?= number_format($product->prix,2,',',''); ?>€</p>
     <p><button>Ajoutez au panier</button></p>
@@ -44,6 +46,8 @@ $db = new DB();
   </main>
     
 </body>
+
+
 
 
 
