@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>nourriture</title>
 </head>
 <body>
 
@@ -16,7 +16,8 @@ include './header.php';
 <?php
 include './nav.php';
 
-include './acceuil1.php';
+
+include './nourriture1.php';
 
 ?>
 

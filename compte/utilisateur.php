@@ -5,7 +5,7 @@
 session_start();
 
 if(!isset($_SESSION['auth'])){
-header('location:index.php');
+header('location:log.php');
 exit();
 }
 include './header.php';
@@ -121,8 +121,8 @@ body{
 <div class="info">
     <img src="../Images Bordel/admin.png" height="25px" alt="">
     <h2>MES INFOS COMPTE</h2>
-    <p>tel: 06.37.29.75.55<br>
-    e-mail: thomas22751@gmail.com<br></p>
+    <p>tel: <?php echo $_SESSION['auth']->nom; ?> <br>
+    e-mail: <?php echo $_SESSION['auth']->email; ?> <br></p>
 </div>
 
 <img class="img1" src="../Images Bordel/fleche1.png" height="130px" alt="">

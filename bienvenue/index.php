@@ -9,7 +9,7 @@
 
     <style>
         body{
-      background-image:url('../Images/Marchand Aladdin.jpg');
+      background-image:url('../Images/magasin.webp');
       background-repeat:no-repeat ;
       background-attachment: fixed;
       background-size: cover;
@@ -21,7 +21,7 @@
 
          h1{
            
-            color: orangered;
+            color: black;
             font-family: algerian;
             display: flex;
             text-align: center;
@@ -30,22 +30,13 @@
             left: 50vh;
             
          }
-         img{
-          position:fixed;
-          height: 250px;
-          top: 50%;
-          left: 45%;
-          z-index: -1;
+       
          
-      
-         
-         }
-
          .rideaux {
     width: 50%;
-    height: 90vh;
+    height: 93vh;
     float: left;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
@@ -90,14 +81,47 @@
 
 
 .rideaux-element:nth-child(odd) {
-    background-color:#01002e;
+    background-color:#d15028;
+   
 }
 
 .rideaux-element:nth-child(even) {
-    background-color: #d06800;
+    background-color:#fca967;
+   
 }
 
+.boutique{
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    margin-top: 60vh;
+    margin-left: 75vh; 
+}
 
+button{
+    display: flex;
+   align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: algerian;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 2px 2px black;
+    height: 10vh;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #d15028;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
     </style>
 
 <!-----------------------------------------------------------------FIN DE BALISE STYLE----------------------------------------------------------->
@@ -109,9 +133,14 @@
 
 <iframe src="../audio/fais-moi-le-couscous-cherie.mp3" allowe="autoplay" style="display:none" id="iframeAudio"></iframe>
 
-<h1>BIENVENUE SUR LE BAZAR DE HECKLE ET JECKLE</h1>
+<h1>BIENVENUE AUX BAZAR DE HECKLE ET JECKLE</h1>
 
+    
 <body>
+
+<div class="boutique">
+<button><a href="../COOKIES/page1.php">VISITEZ NOTRE BOUTIQUE</a></button>
+    </div>
 
 <a href=""><img src="../Images/abu.png" alt=""></a>
 

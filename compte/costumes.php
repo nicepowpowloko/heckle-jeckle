@@ -1,5 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>costumes orientale</title>
+</head>
 <body>
-  <main>
+
+<?php
+
+include './header.php';
+?>
+
+<?php
+include './nav.php';
+
+?>
+
+<main>
+	  <h1>ROYAL SMEELA Costumes Danse Orientale Femme Ceinture Soutien Gorge Danse du Ventre Sexy Folk Tribal Gitan Robes de Danse Ethnique Style Paillettes Soutien-Gorge et Ceinture Robe Danse Orientale </h1>
   <div class="container">
 	
   <div class="feature">
@@ -23,15 +43,8 @@
               <div class="item-wrapper">
                   <figure class="gallery-item image-holder r-3-2"></figure>
               </div>
-              <div class="item-wrapper">
-                  <figure class="gallery-item image-holder r-3-2"></figure>
-              </div>
-              <div class="item-wrapper">
-                  <figure class="gallery-item image-holder r-3-2"></figure>
-              </div>
-              <div class="item-wrapper">
-                  <figure class="gallery-item image-holder r-3-2"></figure>
-              </div>
+            
+            
              
               
       </div>
@@ -44,6 +57,7 @@
   
 </div>
 
+
 <style>
   *,
 *::before,
@@ -54,10 +68,28 @@
 	box-sizing: border-box;
 }
 
+main{
+  background: url('../IMAGES/Background.jpg');
+}
+
 body {
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	color: #707070;
+	color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Algerian';
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arabolical';
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .container {
@@ -121,7 +153,7 @@ body {
 	display: inline-block;
 	width: 50%;
 	border: none;
-  color: #ccc;
+  color: black;
 	background-color: transparent;
 	padding: 0.2em 1.5em;
 }
@@ -228,14 +260,12 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 //Start this baby up
 (function init() {
 	var images = [
-		'https://m.media-amazon.com/images/I/91-GBaVmNcL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/81tt+HjneYL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/91Udd03R0pL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/81csMZ3Jn3L._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/31WeOawxIXL._AC_.jpg',
-		'https://m.media-amazon.com/images/I/91XVoIadHLL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/71ktDVYa7TL._AC_SL1500_.jpg',
-		'https://m.media-amazon.com/images/I/61Y55xudzFL._AC_SL1098_.jpg',
+		'https://m.media-amazon.com/images/I/61nj4jQVHGL._AC_SX522._SX._UX._SY._UY_.jpg',
+		'https://m.media-amazon.com/images/I/61Ps734zqxL._AC_SX522._SX._UX._SY._UY_.jpg',
+		'https://m.media-amazon.com/images/I/51J+feuLNpL._AC_SX522._SX._UX._SY._UY_.jpg',
+		'https://m.media-amazon.com/images/I/61JNfQq6G0L._AC_SX522._SX._UX._SY._UY_.jpg',
+		'https://m.media-amazon.com/images/I/61+91uLXLxL._AC_SX522._SX._UX._SY._UY_.jpg',
+		
 	];
 	
 	//Set Initial Featured Image
@@ -249,4 +279,7 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 })();
 </script>
   </main>
+  <?php
+include '../acceuil/footer.php';
+?>
 </body>

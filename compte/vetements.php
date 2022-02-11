@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nourriture</title>
-</head>
-<body>
-
 <?php
-include '../compte/header.php';
-include '../acceuil/nav.php';
-
-?>
-<?php
-
 require '../nourriture/db.class.php';
 
 
@@ -28,24 +12,34 @@ $db = new DB();
 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nourriture</title>
+    <title>vetements</title>
 </head>
 <body>
+<?php
 
+include './header.php';
+?>
+
+<?php
+include './nav.php';
+
+
+?>
 
 <main> 
     <br>
     <div class="AR">
-    <?php $nourriture2= $db->query('SELECT * FROM nourriture2'); ?>
+    <?php $vetement= $db->query('SELECT * FROM vetement'); ?>
 
   
-<?php foreach ($nourriture2 as $product): ?>
+<?php foreach ($vetement as $product): ?>
     
   <div class="card">
   
@@ -115,24 +109,12 @@ $db = new DB();
   opacity: 0.7;
   background-color: orangered;
 }
+
 </style>
 
 
-
-
-</html>
-
-
-
-
-</main>
-</body>
-
-
 <?php
-include '../compte/footer.php';
-
+include '../acceuil/footer.php'
 ?>
-
 
 </html>

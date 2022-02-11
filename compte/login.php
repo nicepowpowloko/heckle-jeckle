@@ -28,7 +28,7 @@ form input{
     border: 2px solid #F0A224;
     box-shadow: 10px 5px 5px #A14808;
     background: #612C11;
-    color:#C71F16;
+    color:white;
 }
 .envoie{
     font-family: "algerian";
@@ -59,6 +59,6 @@ fieldset{
     </fieldset>
 
 <?php
-include './footer.php';
-
+include '../acceuil/footer.php';
+require './utilisateur.php';
 ?>

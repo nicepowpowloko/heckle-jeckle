@@ -9,58 +9,20 @@
 <body>
 
 <?php
-include '../acceuil/en-tête.php'
-?>
-
-<?php
-include '../acceuil/nav.php'
-?>
-
-
-<?php
 if(isset($_COOKIE['accept_cookie'])) {
     $showcookie = false;
 }else{
     $showcookie = true;
 }
-require_once('./index.php');
+require_once('../acceuil/index.php');
 ?>
 
 
-<main>
-<div class="phrases">
-    <img src="../Images/Laissez vous emportez par le souffle de l'Orient.png" width="90%">
-    <img src="../Images/Le véritable souk.jpg" width="90%">
-</div>
-    
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <img src="../Images/Nourriture Banner.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <img src="../Images/Banner 2.jpg" style="width:100%">
-</div>
-<div class="mySlides fade">
-  <img src="../Images/Banner 3.webp" style="width:100%">
-</div>
-<div class="mySlides fade">
-  <img src="../Images/Banner 4.jpg" style="width:100%">
-</div>
-
-
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-
-</main>
 
 <?php if($showcookie) { ?>
     <div class="overlay">
         <div class="cookie-alert">Le BAZAR DE HECKLE ET JECKLE vous demande d'accepter les cookies afin d'optimiser les performances, les fonctionnalités des réseaux sociaux et la pertinence de la publicité. Pour obtenir plus d'informations ou modifier vos préférence cliquez sur le bouton << PLUS D'INFORMATIONS >>
-<br /><a href="../Page du Site/index.php">ENTREZ</a>
+<br /><a href="../acceuil/index.php">ENTREZ</a>
         <a href="#" onclick="togglecokie()">PLUS D'INFORMATIONS</a>
 
 
@@ -76,7 +38,7 @@ require_once('./index.php');
         <br>
         3.Cookies liés aux réseaux sociaux et à la Publicités<br>
         Les cookies relatifs aux réseaux sociaux vous offrent la possibilité de vous connecter aux réseaux sociaux et de partager le contenu de notre site Web sur ces derniers. Les cookies publicitaires (ou de tierces parties) recueillent des informations qui contribuent à mieux cibler la publicité selon vos centres d'intérêt, que ce soit sur LE BAZAR DE HECKLE ET JECKLE ou d'autres sites. Dans certains cas, ces cookies ont recours à l'utilisation de vos données personnelles. Pour en savoir plus sur la façon dont vos données personnelles sont utilisées, consultez notre Politique de confidentialité et de gestion des cookies. La désactivation de ces cookies peut entraîner l'affichage de publicités moins pertinentes pour vous et empêcher une liaison efficace avec Facebook, Twitter ou d'autres réseaux sociaux et/ou vous empêcher de partager du contenu sur les réseaux sociaux.</p>
-      <a href="../Page du Site/index.php"><button class="buton">retour</button></a>
+      <a href="../COOKIES/page1.php"><button class="buton">retour</button></a>
    </div>
 
 <?php } ?>
@@ -119,12 +81,6 @@ require_once('./index.php');
     border: 2px solid #F0A224;
   
 }
-
-
-
-
-
-
 
 .overlay{
         position: fixed;
@@ -174,15 +130,6 @@ require_once('./index.php');
        
     }
    
- 
-    
-
-
-
-
-
-
-
 .phrases{
     text-align: center;
     column-count: 2;
@@ -255,26 +202,7 @@ require_once('./index.php');
   to {opacity: 1}
 }
 
-main{
-    text-align: center;
-    display: flex;
-    flex-wrap:wrap;
-    background-image: url('../Images/Background.jpg');
-}
 
-
-
- main p{
-    border: 2px solid white;
-    justify-content: center;
-    display: flex;
-    padding: 25px;
-    width: 350px;
-    background-color: white;
-    border-radius: 30px;
-    text-align: center;
-    font-size: 18px;
-}
 
 </style>
 
@@ -324,12 +252,7 @@ $('.overlay').on('click', function(e) {
     }
 }
 
-
-
-
 </script>
 
-<?php
-include '../acceuil/footer.php'
-?>
+
 </html>

@@ -14,7 +14,7 @@ form{
 }
 
 form input ~ label{
-    margin: 10px;
+    margin: 2px;
 }
 
 
@@ -32,7 +32,7 @@ form input{
 fieldset{
     background-image: url('../Images Bordel/dessert.jpg');
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
     border:  10px solid black;
     
 }
@@ -51,13 +51,12 @@ fieldset{
     display: none;
 }
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
 </style>
-
-
-
-
-
-
 
 
 
@@ -80,6 +79,8 @@ fieldset{
     <div id="bouton">
     <input class="envoie" type="submit" value="wallah">
     </div>
+
+<a href="./login.php">SIGN IN</a>
 
    </form>
 </fieldset>
@@ -104,6 +105,6 @@ $(document).ready(function(){
 
 
 <?php
-include './footer.php';
+include '../acceuil/footer.php';
 ?>
 <script src="../jquery-ui-1.13.0/jquery-ui.css"></script>

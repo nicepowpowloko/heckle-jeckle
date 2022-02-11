@@ -1,9 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divers</title>
+</head>
+<body>
+
 <?php
-require './db.class.php';
-
-include '../acceuil/en-tête.php';
-
+include '../compte/header.php';
 include '../acceuil/nav.php';
+
+?>
+<?php
+
+require '../nourriture/db.class.php';
+
+
 
 ?>
 
@@ -28,44 +42,49 @@ $db = new DB();
 <main> 
     <br>
     <div class="AR">
-    <?php $vetement= $db->query('SELECT * FROM vetement'); ?>
-<?php foreach ($vetement as $product): ?>
-   
+    <?php $divers2= $db->query('SELECT * FROM divers2'); ?>
+
+  
+<?php foreach ($divers2 as $product): ?>
+    
   <div class="card">
-    <a href="../Article/Couscous.php"><img src ="<?=$product->image ?>" style="width:50%"></a>
+  
+    <a href="<?=$product->lien ?>"><img src ="<?=$product->image ?>" style="width:50%"></a>
     <h1> <?= $product->articles ?> </h1>
     <p class="price"> <?= number_format($product->prix,2,',',''); ?>€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
-    
+
+
   <?php endforeach ?>
   </div>
 <br>
+
   </main>
     
 </body>
 
 
 
+
+
 <style>
-    *{
+        *{
         margin: 0;
-       
     }
 
     .AR{
-        display: flex;
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
 }
 
     main{
         background-image: url('../Images/Background.jpg');
-       
     }
-    
+
 .card {
+  
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -73,7 +92,7 @@ $db = new DB();
   color: #00B2FE;
   flex-wrap: wrap;
   background-color: white;
-
+  margin: 50px;
 }
 
 .price {
@@ -92,17 +111,28 @@ $db = new DB();
   width: 100%;
   font-size: 18px;
 }
-
 .card button:hover {
   opacity: 0.7;
   background-color: orangered;
 }
-
 </style>
 
 
 
+
+</html>
+
+
+
+
+</main>
+</body>
+
+
 <?php
-include '../acceuil/footer.php'
+include '../compte/footer.php';
+
 ?>
+
+
 </html>

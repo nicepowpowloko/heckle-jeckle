@@ -33,12 +33,13 @@ if(!empty($_POST) && !empty($hashed) && !empty($usname) && !empty($mail)){
 
 try{
 require_once './bdd.php';
-    $req = $pdo->prepare("INSERT INTO compte(prenom, password, conftoken, email) VALUES (:prenom, :password, :conftoken, :email)");
+    $req = $pdo->prepare("INSERT INTO compte(prenom, password, conftoken, email, nom) VALUES (:prenom, :password, :conftoken, :email, :nom)");
     $tok = token(60);
     $req->bindParam(':prenom', $usname);
     $req->bindParam(':password', $hashed);
     $req->bindParam(':conftoken', $tok);
     $req->bindParam(':email', $mail);
+    $req->bindParam(':nom', $name);
     $req->execute();
 
 }catch(PDOException $e){

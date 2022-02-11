@@ -1,9 +1,9 @@
 <nav>
         <div class="topnav">
-            <a href="../Page du Site/index.php">ACCUEIL</a>
-            <a href="../Page du Site/nourriture.php">ALIMENTATIONS</a>
-            <a href="../Page du Site/vêtements & accesoires.php">VETEMENTS & ACCESSOIRES</a>
-            <a href="../Page du Site/divers.php">DIVERS</a>
+            <a href="../acceuil/index.php">ACCUEIL</a>
+            <a href="../nourriture/index.php">ALIMENTATIONS</a>
+            <a href="../vetement/index.php">VETEMENTS & ACCESSOIRES</a>
+            <a href="../divers/index.php">DIVERS</a>
             <a href="">PANIER</a>
             <a href="../compte/insc.php" class="conn"><img src="../IMAGES/NAV/Profil.png" height="50px">CONNEXION</a>
           </div> 

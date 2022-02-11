@@ -4,50 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vêtements & Accessoires</title>
+    <title>vetements</title>
 </head>
 <body>
+
 <?php
-include '../acceuil/en-tête.php';
-?>
-<?php
+include '../compte/header.php';
 include '../acceuil/nav.php';
 
+?>
+<?php
+
 require '../nourriture/db.class.php';
+
+
+
+?>
+
+<?php
+$db = new DB();
+
 ?>
 
 
 
-<main>
-<br>
-<div class="AR">
-    <?php $vetement= $db->query('SELECT * FROM vetement'); ?>
-<?php foreach ($vetement as $product): ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nourriture</title>
+</head>
+<body>
+
+
+<main> 
+    <br>
+    <div class="AR">
+    <?php $vetements2= $db->query('SELECT * FROM vetements2'); ?>
+
+  
+<?php foreach ($vetements2 as $product): ?>
+    
   <div class="card">
-    <a href="../Article/Couscous.php"><img src ="<?=$product->image ?>" style="width:50%"></a>
+  
+    <a href="<?=$product->lien ?>"><img src ="<?=$product->image ?>" style="width:50%"></a>
     <h1> <?= $product->articles ?> </h1>
     <p class="price"> <?= number_format($product->prix,2,',',''); ?>€</p>
     <p><button>Ajoutez au panier</button></p>
   </div>
+
+
   <?php endforeach ?>
   </div>
 <br>
-</main>
 
+  </main>
+    
 </body>
 
+
+
+
+
 <style>
-  *{
+        *{
         margin: 0;
     }
-    main{
-        background: url('../Images/Background.jpg');
-    }
+
     .AR{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+    main{
+        background-image: url('../Images/Background.jpg');
+    }
 
 .card {
   
@@ -58,6 +92,7 @@ require '../nourriture/db.class.php';
   color: #00B2FE;
   flex-wrap: wrap;
   background-color: white;
+  margin: 50px;
 }
 
 .price {
@@ -76,14 +111,29 @@ require '../nourriture/db.class.php';
   width: 100%;
   font-size: 18px;
 }
-
 .card button:hover {
   opacity: 0.7;
   background-color: orangered;
 }
+
 </style>
 
+
+
+
+</html>
+
+
+
+
+</main>
+</body>
+
+
 <?php
-include '../acceuil/footer.php'
+include '../compte/footer.php';
+
 ?>
+
+
 </html>
