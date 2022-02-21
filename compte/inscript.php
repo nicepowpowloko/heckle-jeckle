@@ -15,7 +15,7 @@ $usname = cleandata($_POST['pseudo']);
 $mail = cleandata($_POST['email']);
 
 }else{
-    //header("location:./insc.php");
+    header("location:./insc.php");
 }
 
 if(!empty($_POST['code']) && !empty($_POST['codeconf']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.+-]).{6,18}#', $_POST['code']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.+-]).{6,18}#', $_POST["codeconf"]) && $_POST['code'] === $_POST['codeconf']){
@@ -24,7 +24,7 @@ $pass = $_POST["code"];
 $hashed = password_hash($pass, PASSWORD_BCRYPT);
 
 }else{
-    //header('location:./insc.php');
+    header('location:./insc.php');
  
     echo 'ERREUR TU TE TROMPE DE MOT DE PASSE';
 }

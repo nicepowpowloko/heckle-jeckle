@@ -34,7 +34,7 @@ if(!empty($_POST['codemd']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])
             session_start();
         $_SESSION['auth'] = $userdata;
         print_r($_SESSION['auth']);
-       header('location:./acceuil.php');   
+       header('location:./login.php');   
 
     }else{
         echo 'ceci est faux';
