@@ -130,7 +130,7 @@ $db = new DB();
 
 
 <?php
-include '../compte/footer.php';
+include '../acceuil/footer.php';
 
 ?>
 

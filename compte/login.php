@@ -59,6 +59,6 @@ fieldset{
     </fieldset>
 
 <?php
-include '../acceuil/footer.php';
+include './footer.php';
 require './utilisateur.php';
 ?>

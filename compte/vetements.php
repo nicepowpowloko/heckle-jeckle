@@ -114,7 +114,7 @@ include './nav.php';
 
 
 <?php
-include '../acceuil/footer.php'
+include './footer.php';
 ?>
 
 </html>

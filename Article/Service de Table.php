@@ -82,9 +82,6 @@
 
 <br>
 
-<?php
-include '../acceuil/footer.php';
-?>
 <style>
   *,
 *::before,
@@ -310,3 +307,8 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 </script>
   </main>
 </body>
+
+
+<?php
+include '../acceuil/footer.php';
+?>

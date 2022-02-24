@@ -105,6 +105,6 @@ $(document).ready(function(){
 
 
 <?php
-include '../acceuil/footer.php';
+include './footer.php';
 ?>
 <script src="../jquery-ui-1.13.0/jquery-ui.css"></script>

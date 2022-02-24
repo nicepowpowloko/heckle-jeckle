@@ -31,6 +31,6 @@ include './nourriture1.php';
 
 
 <?php
-include '../acceuil/footer.php'
+include './footer.php'
 ?>
 </html>

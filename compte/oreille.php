@@ -305,6 +305,6 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 </script>
   </main>
   <?php
-include '../acceuil/footer.php';
+include './footer.php';
 ?>
 </body>
