@@ -4,7 +4,8 @@
             <a href="./nourriture.php">ALIMENTATION</a>
             <a href="./vetements.php">VETEMENTS & ACCESSOIRES</a>
             <a href='./divers.php'>DIVERS</a>
-            <a href="./utilisateur.php"> MON COMPTE</a>
+            <a href="./bon-commande.php">COMMANDEZ</a>
+            <a href="./utilisateur.php">MON COMPTE</a>
             <a href="../acceuil/index.php"class="conn"><img src="../Images Bordel/barraca-arabe-logo-png-transparent.png" height="50px">DECONNEXION</a>
           </div> 
 </nav>

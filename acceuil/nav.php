@@ -4,7 +4,7 @@
             <a href="../nourriture/index.php">ALIMENTATIONS</a>
             <a href="../vetement/index.php">VETEMENTS & ACCESSOIRES</a>
             <a href="../divers/index.php">DIVERS</a>
-            <a href="">PANIER</a>
+            <a href="../bon de commande/commande.php">COMMANDEZ</a>
             <a href="../compte/insc.php" class="conn"><img src="../IMAGES/NAV/Profil.png" height="50px">CONNEXION</a>
           </div> 
 </nav>

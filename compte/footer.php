@@ -3,19 +3,19 @@
         <div class="wrapper">
         <div class="gauche">
             <h1>Paiement</h1>
-            <img src="../Images/VISA.png" alt="">
-            <img src="../Images/MASTERCARD.png" alt="">
+            <img src="../Images/FOOTER/VISA.png" alt="">
+            <img src="../Images/FOOTER/MASTERCARD.png" alt="">
         </div>
         <div class="milieu">
-            <h1>Nous suivre</h1>
-            <img src="../Images/FACEBOOK.png" alt="">
-            <img src="../Images/TWITTER.png" alt="">
-            <img src="../Images/INSTAGRAM.png" alt="">
-            <img src="../Images/YOUTUBE.png" alt="">
+            <h1>Nous suivres</h1>
+            <img src="../Images/FOOTER/FACEBOOK.png" alt="">
+            <img src="../Images/FOOTER/TWITTER.png" alt="">
+            <img src="../Images/FOOTER/INSTAGRAM.png" alt="">
+            <img src="../Images/FOOTER/YOUTUBE.png" alt="">
         </div>
         <div class="droite">
-            <h1>Contact</h1>
-            <a href="../Page du Site/formulaire.php"><p>Formulaire</p></a>
+            <h1>Notre societé</h1>
+            <a href="./formulaire.php"><p>Contact</p></a>
             <p>Mentions Légales</p>
         </div>
         </div>

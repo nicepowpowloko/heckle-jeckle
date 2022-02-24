@@ -7,16 +7,16 @@
             <img src="../IMAGES/FOOTER/MASTERCARD.png" alt="">
         </div>
         <div class="milieu">
-            <h1>Nous suivre</h1>
+            <h1>Nous suivres</h1>
             <img src="../IMAGES/FOOTER/FACEBOOK.png" alt="">
             <img src="../IMAGES/FOOTER/TWITTER.png" alt="">
             <img src="../IMAGES/FOOTER/INSTAGRAM.png" alt="">
             <img src="../IMAGES/FOOTER/YOUTUBE.png" alt="">
         </div>
         <div class="droite">
-            <h1>Contact</h1>
-            <a href="../formulaire/formulaire.php"><p>Formulaire</p></a>
-            <p>Mentions Légales</p>
+            <h1>Notre societé</h1>
+            <a href="../formulaire/formulaire.php"><p>Contact</p></a>
+            <p>Mentions légales</p>
         </div>
         </div>
         
