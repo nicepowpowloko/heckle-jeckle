@@ -18,7 +18,13 @@ include '../acceuil/nav.php';
 
 ?>
 
+
 <style>
+
+
+body{
+    background-image: url('../Images/Background.jpg');
+}
 
        form{
     padding : 23px 23px;
@@ -64,6 +70,66 @@ footer{
     margin-top: 60vh;
 }
 
+.popup a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    width: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  padding: 10px;
+  width: 400px;
+  left: 50%;
+  margin-left: -150px;
+  height: 330px;
+  top: 50%;
+  margin-top: -80px;
+  background: #FFF;
+  border: 3px solid #00B2FE;
+  font-family: algerian;
+  z-index: 20;
+  box-shadow: 10px 10px black;
+}
+
+#popup:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: -2;
+}
+
+#popup:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background:grey;
+  z-index: -1;
+}
+.popup p{
+    display: flex;
+    justify-content: center;
+}
+
+.popup img{
+    height: 150px;
+    width: 150px;
+    margin-left: 110px;
+    position: fixed;
+}
 
 </style>
 
@@ -156,15 +222,42 @@ value="0" min="0" max="10">
        </div>
        <br>       
     <div class="form7">
-        <input  type="submit" value="VALIDER VOTRE COMMANDE">
+    <button class="button" href="#" onclick="show('popup')">validez votre commande</button>
     </div>
     </form>
+
+
 </main>
+<div class="popup" id="popup">
+  <h2>Le Bazar de HECKLE ET JECKLE </h2></p>
+  <p>Vous remercie de votre confiance</p>
+  <p>A bientôt sur notre site</p>
+  <br>
+<img src="../Images/HEADER/Logo.png" alt="">
+
+  <a href="#" onclick="hide('popup')">Retour</a>
+</div>
 
 </body>
 
 
 </html>
+
+<script>
+
+$ = function(id) {
+  return document.getElementById(id);
+}
+
+var show = function(id) {
+	$(id).style.display ='block';
+}
+var hide = function(id) {
+	$(id).style.display ='none';
+}
+
+</script>
+
 
 
 <?php

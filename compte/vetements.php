@@ -46,7 +46,7 @@ include './nav.php';
     <a href="<?=$product->lien ?>"><img src ="<?=$product->image ?>" style="width:50%"></a>
     <h1> <?= $product->articles ?> </h1>
     <p class="price"> <?= number_format($product->prix,2,',',''); ?>€</p>
-    <p><button>Ajoutez au panier</button></p>
+    <a href="../bon de commande/commande.php"><p><button>commander</button></p></a>
   </div>
 
 
@@ -104,6 +104,7 @@ include './nav.php';
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+  font-family: algerian;
 }
 .card button:hover {
   opacity: 0.7;

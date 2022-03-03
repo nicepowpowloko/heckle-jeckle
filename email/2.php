@@ -25,7 +25,7 @@ else{
     echo ' non envoyer';
 }
 
-//header('location:./1.php');
+header('location:./1.php');
 
 
 
