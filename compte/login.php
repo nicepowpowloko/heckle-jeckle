@@ -60,5 +60,4 @@ fieldset{
 
 <?php
 include './footer.php';
-require './utilisateur.php';
 ?>

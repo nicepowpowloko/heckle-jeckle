@@ -16,7 +16,7 @@ function cleandata($data){
 }
 $pseudo = cleandata($_POST['pseudo']);    
 }else{
-    echo 'probléme';
+    echo 'problème';
 }
 
 if(!empty($_POST['codemd']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}#', $_POST['codemd']) && !empty($pseudo)){
