@@ -36,7 +36,7 @@ $db = new DB();
     <a href="<?=$product->lien ?>"><img src ="<?=$product->image ?>" style="width:50%"></a>
     <h1> <?= $product->articles ?> </h1>
     <p class="price"> <?= number_format($product->prix,2,',',''); ?>€</p>
-    <a href="../bon de commande/commande.php"><p><button>commander</button></p></a>
+    <a href="../bon de commande/commande.php"><p><button><h2>commander</h2></button></p></a>
   </div>
 
 
@@ -100,6 +100,35 @@ $db = new DB();
   opacity: 0.7;
   background-color: orangered;
 }
+
+.card img{
+ transition: 2s ease-in-out; 
+}
+.card img:hover{
+  transform: rotateY(180deg);
+}
+
+
+.card button:hover {
+  opacity: 0.7;
+  background-color: orangered;
+}
+
+.card img{
+ transition: 2s ease-in-out; 
+}
+.card img:hover{
+  transform: rotateY(180deg);
+}
+
+.card h1:hover{
+  color: black;
+}
+
+button h2{
+  color: black;
+}
+
 
 </style>
 
