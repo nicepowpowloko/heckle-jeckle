@@ -31,20 +31,19 @@
               <div class="item-wrapper">
                   <figure class="gallery-item image-holder r-3-2"></figure>
               </div>
-            
-            
-             
-              
+        
       </div>
   </div>
-  
+
+
   <div class="controls">
       <button class="move-btn left">&larr;</button>
       <button class="move-btn right">&rarr;</button>
   </div>
   
 </div>
-
+<br>
+<br>
 <?php
 include '../acceuil/footer.php';
 ?>

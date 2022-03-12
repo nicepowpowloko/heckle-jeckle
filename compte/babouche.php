@@ -67,6 +67,7 @@ include './nav.php';
   </div>
   
 </div>
+<br>
 
 <div class="description">
     <p> À propos de cet article

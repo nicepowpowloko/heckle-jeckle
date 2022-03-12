@@ -19,7 +19,7 @@ $pseudo = cleandata($_POST['pseudo']);
     echo 'problème';
 }
 
-if(!empty($_POST['codemd']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.-]).{6,18}#', $_POST['codemd']) && !empty($pseudo)){
+if(!empty($_POST['codemd']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?*$.+-]).{6,18}#', $_POST['codemd']) && !empty($pseudo)){
     try{
         require_once './bdd.php';
         $req = $pdo->prepare('SELECT * FROM compte WHERE tokenconfirmed IS NOT NULL AND prenom = :pseunom ');
@@ -34,7 +34,7 @@ if(!empty($_POST['codemd']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])
             session_start();
         $_SESSION['auth'] = $userdata;
         print_r($_SESSION['auth']);
-       header('location:./login.php');   
+       header('location:./utilisateur.php');   
 
     }else{
         echo 'ceci est faux';
@@ -47,3 +47,12 @@ if(!empty($_POST['codemd']) && preg_match('#(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])
 
 
 ?>
+<br>
+<br>
+
+<a href="./login.php"><button>retour</button></a>
+
+<style>
+
+
+</style>

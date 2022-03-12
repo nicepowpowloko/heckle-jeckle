@@ -61,6 +61,7 @@ include './nav.php';
   </div>
   
 </div>
+<br>
 
 <div class="description">
     <p>À propos de cet article
@@ -91,6 +92,7 @@ include './nav.php';
 
 main{
   background: url('../IMAGES/Background.jpg');
+  
 }
 
 body {

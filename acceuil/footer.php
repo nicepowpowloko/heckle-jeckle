@@ -16,7 +16,7 @@
         <div class="droite">
             <h1>Notre societé</h1>
             <a href="../formulaire/formulaire.php"><p>Contact</p></a>
-            <p>Mentions légales</p>
+            <a href="../acceuil/mentions-legales.php"><p>Mentions légales</p></a>
         </div>
         </div>
         
