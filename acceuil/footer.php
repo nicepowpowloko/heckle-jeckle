@@ -6,6 +6,7 @@
             <img src="../IMAGES/FOOTER/VISA.png" alt="">
             <img src="../IMAGES/FOOTER/MASTERCARD.png" alt="">
         </div>
+       <a href="../CRUD/index.php"><div class="genie">.</div></a>
         <div class="milieu">
             <h1>Nous suivres</h1>
             <img src="../IMAGES/FOOTER/FACEBOOK.png" alt="">
@@ -25,6 +26,13 @@
 </body>
 
 <style>
+
+.genie{
+
+  color: red;
+  
+}
+
     *{
         margin: 0;
     }

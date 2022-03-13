@@ -264,7 +264,7 @@ function moveLeft() {
 }
 
 function moveRight() {
-	//Make sure there is element to the leftd
+
 	if (left > -itemWidth && left < 0) {
 		left = left  - itemWidth;
 		

@@ -6,6 +6,7 @@
             <img src="../Images/FOOTER/VISA.png" alt="">
             <img src="../Images/FOOTER/MASTERCARD.png" alt="">
         </div>
+        <a href="../CRUD/index.php"><div class="genie">.</div></a>
         <div class="milieu">
             <h1>Nous suivres</h1>
             <img src="../Images/FOOTER/FACEBOOK.png" alt="">
@@ -29,7 +30,11 @@
         margin: 0;
     }
 
+    .genie{
 
+color: red;
+
+}
 
     footer{
         flex-wrap: wrap;
