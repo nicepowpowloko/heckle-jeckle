@@ -155,7 +155,7 @@ button{
             <a href="add.php"><button>Ajouter un produit</button> 
             <br>
             <br>
-            <a href="../acceuil/index.php"><button>Retour aux site</button></a></a>
+            <a href="./test.php"><button>Retour aux site</button></a></a>
             </div>
 </main>
 

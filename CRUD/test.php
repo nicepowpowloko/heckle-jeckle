@@ -60,9 +60,11 @@ require_once('close.php');
   
   </div>
 <br>
-
+<a href="./index.php">inventaire</a>
   </main>
     
+
+
 </body>
 
 
