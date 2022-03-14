@@ -122,6 +122,7 @@ button{
                             <th>Prix</th>
                             <th>Nombre</th>
                             <th>Actions</th>
+                            
                         </thead>
                         <tbody>
                             <?php
@@ -136,6 +137,8 @@ button{
                             <td><?= $produit['produit'] ?></td>
                             <td><?= $produit['prix'] ?></td>
                             <td><?= $produit['nombre'] ?></td>
+                         
+                            
                             
 
 <!-- recupere l'id en question pour pouvoir l'apercevoir en detail celon l'id recuperer-->

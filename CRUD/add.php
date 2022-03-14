@@ -16,7 +16,8 @@ if($_POST){
         $produit = strip_tags($_POST['produit']);
         $prix = strip_tags($_POST['prix']);
         $nombre = strip_tags($_POST['nombre']);
-
+        
+       
         $sql = 'INSERT INTO `liste` (`produit`, `prix`, `nombre`) VALUES (:produit, :prix, :nombre);';
 
         $query = $db->prepare($sql);
@@ -24,7 +25,8 @@ if($_POST){
         $query->bindValue(':produit', $produit, PDO::PARAM_STR);
         $query->bindValue(':prix', $prix, PDO::PARAM_STR);
         $query->bindValue(':nombre', $nombre, PDO::PARAM_INT);
-
+       
+      
         $query->execute();
 
         $_SESSION['message'] = " Produit ajouter";
@@ -121,7 +123,7 @@ input{
                                         <input type="number" id="nombre" name="nombre">
                                     </div>
                                     <br>
-
+                                   
                                    <button>ENVOYER</button>
                                    
 
