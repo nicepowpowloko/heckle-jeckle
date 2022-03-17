@@ -14,7 +14,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 
 $id = strip_tags($_GET['id']);
 
-$sql = 'SELECT * FROM `nourriture` WHERE `id` = :id;';
+$sql = 'SELECT * FROM `vetement` WHERE `id` = :id;';
 
 // je prépare la réquête
 

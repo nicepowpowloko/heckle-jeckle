@@ -17,7 +17,7 @@ if($_POST){
         $prix = strip_tags($_POST['prix']);
         $nombre = strip_tags($_POST['nombre']);
 
-        $sql = 'UPDATE `nourriture` SET `articles`=:articles, `prix`=:prix, `nombre`=:nombre WHERE `id`=:id;';
+        $sql = 'UPDATE `vetement` SET `articles`=:articles, `prix`=:prix, `nombre`=:nombre WHERE `id`=:id;';
 
         $query = $db->prepare($sql);
         $query->bindValue(':id', $id, PDO::PARAM_INT);
@@ -48,7 +48,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 
 $id = strip_tags($_GET['id']);
 
-$sql = 'SELECT * FROM `nourriture` WHERE `id` = :id;';
+$sql = 'SELECT * FROM `vetement` WHERE `id` = :id;';
 
 // je prépare la réquête
 

@@ -37,10 +37,8 @@
               <div class="item-wrapper">
                   <figure class="gallery-item image-holder r-3-2"></figure>
               </div>
-              
-            
-             
-              
+         
+
       </div>
   </div>
   
@@ -50,7 +48,7 @@
   </div>
   
 </div>
-
+<br>
 <?php
 include '../acceuil/footer.php';
 ?>

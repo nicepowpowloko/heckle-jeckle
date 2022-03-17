@@ -5,7 +5,7 @@ session_start();
 
 require_once('connect.php');
 
-$sql = 'SELECT * FROM `nourriture`';
+$sql = 'SELECT * FROM `vetement`';
 
 //je prepare la requete 
 
@@ -26,7 +26,7 @@ require_once('close.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>liste articles nourriture</title>
+    <title>liste articles vetement & accs</title>
 
 <style>
    body{
@@ -155,10 +155,10 @@ button{
             <a href="add.php"><button>Ajouter un articles</button> 
             <br>
             <br>
-            <a href="../compte/nourriture.php"><button>Retour aux site</button></a>
+            <a href="../compte/vetements.php"><button>Retour aux site</button></a>
             <br>
             <br>
-            <a href="./acceuil.php"><button>Acceuil Gestion stock</button></a>
+            <a href="../CRUD/acceuil.php"><button>Acceuil Gestion stock</button></a>
             </div>
 </main>
 

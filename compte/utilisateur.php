@@ -88,12 +88,27 @@ body{
         }
 
         .img2{
-            margin-left: 62vh;
+            margin-left: 61vh;
             margin-top: 10vh;
           
         }
     
-   
+        .inventaire{
+            margin-left: 20vh;
+            position: fixed;
+            margin-top: -3vh;
+          
+        }
+        .inventaire button{
+            border-radius: 10px;
+            padding: 10px;
+            background-color:#F0A224;
+            color: black;
+            border:3px solid #45A9FF;
+            font-family: algerian;
+
+        }
+
     
 </style>
 <body>
@@ -128,18 +143,15 @@ body{
 <img class="img1" src="../Images Bordel/fleche1.png" height="130px" alt="">
 
 <img class="img2" src="../Images Bordel/fleche1.png" height="130px" alt="">
+<br>
+<div class="inventaire">
+<a href="../CRUD/acceuil.php"><button>Mes Inventaires</button></a>
+
+</div>
 
 
-
-
-
-
-
-
-
-
-
-    
 </body>
+
+
 
 </html>

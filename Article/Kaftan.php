@@ -49,6 +49,7 @@
   </div>
   
 </div>
+<br>
 
 <?php
 include '../acceuil/footer.php';
