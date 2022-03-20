@@ -35,6 +35,7 @@ $db = new DB();
     <div class="AR">
     <?php $vetements2= $db->query('SELECT * FROM vetements2'); ?>
 
+    
   
 <?php foreach ($vetements2 as $product): ?>
     
@@ -43,6 +44,7 @@ $db = new DB();
     <a href="<?=$product->lien ?>"><img src ="<?=$product->image ?>" style="width:50%"></a>
     <h1> <?= $product->articles ?> </h1>
     <p class="price"> <?= number_format($product->prix,2,',',''); ?>€</p>
+    <p class="stock">stock :  <?= $product->nombre ?> </p>
     <a href="../bon de commande/commande.php"><button><h2 data-text="commander">commander</h2></button></a>
   </div>
 
@@ -60,6 +62,13 @@ $db = new DB();
 
 
 <style>
+
+.stock{
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
         *{
         margin: 0;
     }

@@ -114,7 +114,7 @@ button{
                     }
                     ?>
 
-<h1>tableaux des articles nourriture</h1>
+<h1>tableaux des articles vétements</h1>
                     <table class="table">
                         <thead>
                             <th>ID</th>
